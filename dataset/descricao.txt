@@ -1,0 +1,26 @@
+
+Estrutura
+nº vértices
+nº arestas
+linhas indicando as arestas com vértice inicial  - vértice final - distancia - peso
+nº de contramãos
+linhas indicando sentido certo da via
+nº ruas de acesso proibido para veículos motorizados
+linhas indicando o vértice inicial e final das vias
+
+----
+
+As instâncias tem os dados da seguinte maneira
+|V|  vértices
+|E| arestas
+2*|E| linhas, com o id do vertice inicial, id do vertice final, distância (em decâmetros) e lucro
+|Cm| número de contramãos
+|Cm| linhas, indicando o sentido correto da via
+|U| Numero de unidades
+Linha com |U| números, sendo 1 se a unidade do tipo i é sensível a contramão (por exemplo carros), 0 caso contrário
+|Cl| número de calçadões
+|Cl| linhas indicando os calçadões
+|U| linhas indicando o número de unidades do tipo i e seu alcance
+
+Os pontos estão enumerados, mas não correspondem exatamente as identificações do geogebra. Estou mandando em anexo a tabela de conversão pontos da instância -> pontos do geogebra. Ele pode fazer um programinha rápido usando map para converter um id em outro quando for imprimir a resposta.
+
