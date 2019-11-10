@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "parser.h"
 
 std::vector<int> removeDupWord(std::string& str) 
 { 
@@ -92,18 +93,56 @@ void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vec
     }
 }
 
-int main()
+void dijkstra(std::vector<std::vector<int>>& weights, int source)
 {
-    std::vector<std::vector<int>> weight_matrix;
-    std::vector<std::vector<int>> imp_matrix;
-    std::vector<std::vector<int>> flags_matrix;
-    read_map(weight_matrix, imp_matrix, flags_matrix);
-    for(auto i: flags_matrix)
-    {
-        for(auto j: i)
+    std::vector<int> dist(weights.size(), 100000000);
+    std::vector<int> previous(weights.size(), -1);
+
+    dist[source] = 0;
+    using pii = std::pair<int, int>;
+    std::priority_queue<pii, std::vector<pii>, std::greater<pii>> Q;
+    Q.push({0, source});
+    while (!Q.empty()) {
+        int u = Q.top().second;
+        int d_u = Q.top().first;
+        Q.pop();
+        if (d_u != dist[u])
+            continue;
+
+        for(int i = 0; i < weights.size(); i++)
         {
-            std::cout << j << " ";
+            //std::cout << i << " " << weights.size() << std::endl;
+            int alt = dist[u] + weights[u][i];
+            if(alt < dist[i])
+            {
+                dist[i] = alt;
+                previous[i] = u;
+                Q.push({dist[i], i});
+            }
         }
-        std::cout << std::endl;
+    }
+    for(int i = 0; i < weights.size(); i++)
+    {
+        weights[source][i] = dist[i];
     }
 }
+
+void shortest_path(std::vector<std::vector<int>>& weights, int n)
+{
+    for(int i = 0; i < weights.size(); i++)
+    {
+        dijkstra(weights, i);
+    }
+}
+
+void floyd_warshall(std::vector<std::vector<int>>& dist, int n)
+{
+    for(int k = 0; k < n; ++k){
+        for(int i = 0; i < n; ++i){
+            for(int j = 0; j < n; ++j){
+                dist[i][j] = std::min( dist[i][j], dist[i][k] + dist[k][j] );
+            }
+        }
+    }
+}
+

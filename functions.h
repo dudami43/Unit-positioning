@@ -1,0 +1,1 @@
+int coversPoint(int position, int destiny, int time, double speed, std::vector<std::vector<int>>& weight_matrix);
