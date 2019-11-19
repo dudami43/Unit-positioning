@@ -1,1 +1,2 @@
-int coversPoint(int position, int destiny, int time, double speed, std::vector<std::vector<int>>& weight_matrix);
+int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<int>& solution, bool use_importance, bool verbose = false);
+int closestUnit(int point, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& solution, bool verbose = false);

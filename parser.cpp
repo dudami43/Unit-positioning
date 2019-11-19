@@ -40,7 +40,7 @@ void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vec
             V = std::stoi(line);
 
             weight_matrix.resize(V, std::vector<int>(V, 10000000));
-            imp_matrix.resize(V, std::vector<int>(V));
+            imp_matrix.resize(V, std::vector<int>(V, -1));
             flags_matrix.resize(V, std::vector<int>(V, 1));
 
             getline(file,line);
