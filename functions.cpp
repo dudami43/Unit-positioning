@@ -50,3 +50,24 @@ int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<
     }
     return totalValue;
 }
+
+void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<int>& solution, bool verbose)
+{
+    int current_point = rand() % weight_matrix.size();
+    for(int i = 0; i < numberUnits; i++)
+    {
+        int farthestDist = 100000;
+        int farthestIndex = 0;
+        for(int j = 0; j < weight_matrix.size(); j++)
+        {
+            auto it = std::find(solution.begin(), solution.end(), solution.size());
+            if(weight_matrix[j][current_point] > farthestDist && it == solution.end())
+            {
+                farthestDist = weight_matrix[j][current_point];
+                farthestIndex = j;
+            }
+        }
+        solution.push_back(current_point);
+        current_point = farthestIndex;
+    }
+}
