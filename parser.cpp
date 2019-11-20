@@ -1,89 +1,79 @@
 #include <bits/stdc++.h>
 #include "parser.h"
 
-std::vector<int> removeDupWord(std::string& str) 
-{ 
-    std::string word = ""; 
-    std::vector<int> numbers;
-    for (int i = 0; i <= str.size(); i++) 
-    {
-        char x = str[i];
-        if (x == ' ' || x == '\n' || x == '\0') 
-        { 
-            numbers.push_back(std::stoi(word));
-            word = ""; 
-        } 
-        else
-        { 
-            word = word + x;
-        } 
-    }
-    /*if (word.size() > 0)
-    {
-        numbers.push_back(std::stoi(word));
-    }*/
-    return numbers;
-} 
-
-void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<std::vector<int>>& flags_matrix)
+void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<std::vector<int>>& flags_matrix, std::vector<std::vector<int>>& distances)
 {
-    std::ifstream file;
+    weight_matrix.clear();
+    imp_matrix.clear();
+    flags_matrix.clear();
+    distances.clear();
+
+    // Faz o parser das ruas
+    std::ifstream file, file_floyd;
     std::string line;
     file.open("data/vicosa.txt");
-    int V, A, WW, F;
-    //Flags: 1 passa qualquer coisa 0 nao passa carro
     try
     {
         if (file.is_open())
         {
-            getline(file,line);
-            V = std::stoi(line);
-
-            weight_matrix.resize(V, std::vector<int>(V, 10000000));
-            imp_matrix.resize(V, std::vector<int>(V, -1));
-            flags_matrix.resize(V, std::vector<int>(V, 1));
-
-            getline(file,line);
-            A = std::stoi(line);
-
-            for(int i = 0; i < A; i++)
-            {
-                getline(file,line);
-
-                std::vector<int> aux = removeDupWord(line);
-
-                weight_matrix[aux[0] - 1][aux[1] - 1] = aux[2];
-                imp_matrix[aux[0] - 1][aux[1] - 1] = aux[3];
-                
-                weight_matrix[aux[1] - 1][aux[0] - 1] = aux[2];
-                imp_matrix[aux[1] - 1][aux[0] - 1] = aux[3];
-
-            }
+            getline(file, line);
+            int n_vertex = stoi(line);
             
-            getline(file,line);
-            WW = std::stoi(line);
-
-            for(int i = 0; i < WW; i++)
+            std::vector<int> zero_matrix;
+            zero_matrix.resize(n_vertex, 0);
+            
+            weight_matrix.resize(n_vertex, zero_matrix);
+            imp_matrix.resize(n_vertex, zero_matrix);
+            flags_matrix.resize(n_vertex, zero_matrix);
+            distances.resize(n_vertex, zero_matrix);
+            
+            getline(file, line);
+            int n_edges = stoi(line);
+            
+            for (int i = 0; i < n_edges; i++)
             {
-                getline(file,line);
+                int initial_vertex, final_vertex, distance, importance;
 
-                std::vector<int> aux = removeDupWord(line);
+                getline(file, line);
+                std::stringstream ss(line);
 
-                weight_matrix[aux[1] - 1][aux[0] - 1] = weight_matrix[aux[1] - 1][aux[0] - 1] * 1.5;
+                ss >> initial_vertex >> final_vertex >> distance >> importance;
+
+                weight_matrix[initial_vertex - 1][final_vertex - 1] = distance;
+                weight_matrix[final_vertex - 1][initial_vertex - 1] = distance;
+
+                imp_matrix[initial_vertex - 1][final_vertex - 1] = importance;
+                imp_matrix[final_vertex - 1][initial_vertex - 1] = importance;
             }
 
-            getline(file,line);
-            F = std::stoi(line);
+            getline(file, line);
+            int n_direction = stoi(line);
 
-            for(int i = 0; i < F; i++)
+            for (int i = 0; i < n_direction; i++)
             {
-                getline(file,line);
-                
-                std::vector<int> aux = removeDupWord(line);
+                int initial_vertex, final_vertex;
 
-                flags_matrix[aux[0] - 1][aux[1] - 1] = 0;
-                flags_matrix[aux[1] - 1][aux[0] - 1] = 0;
+                getline(file, line);
+                std::stringstream ss(line);
 
+                ss >> initial_vertex >> final_vertex;
+
+                weight_matrix[initial_vertex - 1][final_vertex - 1] *= 1.5;
+            }
+
+            getline(file, line);
+            int n_special_edges = stoi(line);
+
+            for (int i = 0; i < n_special_edges; i++)
+            {
+                int initial_vertex, final_vertex;
+
+                getline(file, line);
+                std::stringstream ss(line);
+
+                ss >> initial_vertex >> final_vertex;
+
+                weight_matrix[initial_vertex - 1][final_vertex - 1] *= 2;
             }
         }
     }
@@ -91,58 +81,32 @@ void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vec
     {
         std::cout << param << std::endl;
     }
-}
+    file.close();
 
-void dijkstra(std::vector<std::vector<int>>& weights, int source)
-{
-    std::vector<int> dist(weights.size(), 100000000);
-    std::vector<int> previous(weights.size(), -1);
-
-    dist[source] = 0;
-    using pii = std::pair<int, int>;
-    std::priority_queue<pii, std::vector<pii>, std::greater<pii>> Q;
-    Q.push({0, source});
-    while (!Q.empty()) {
-        int u = Q.top().second;
-        int d_u = Q.top().first;
-        Q.pop();
-        if (d_u != dist[u])
-            continue;
-
-        for(int i = 0; i < weights.size(); i++)
+    // Faz o parse da matriz de distancias minimas
+    file_floyd.open("data/distancias_minimas.txt");
+    try
+    {
+        if (file_floyd.is_open())
         {
-            //std::cout << i << " " << weights.size() << std::endl;
-            int alt = dist[u] + weights[u][i];
-            if(alt < dist[i])
+            getline(file_floyd, line);
+            int n_vertex = stoi(line);
+
+            for (int i = 0; i < n_vertex; i++)
             {
-                dist[i] = alt;
-                previous[i] = u;
-                Q.push({dist[i], i});
+                getline(file_floyd, line);
+                std::stringstream ss(line);
+
+                for (int j = 0; j < n_vertex; j++)
+                {
+                    ss >> distances[i][j];
+                }
             }
         }
     }
-    for(int i = 0; i < weights.size(); i++)
+    catch(char const* param)
     {
-        weights[source][i] = dist[i];
+        std::cout << param << std::endl;
     }
+    file_floyd.close();
 }
-
-void shortest_path(std::vector<std::vector<int>>& weights, int n)
-{
-    for(int i = 0; i < weights.size(); i++)
-    {
-        dijkstra(weights, i);
-    }
-}
-
-void floyd_warshall(std::vector<std::vector<int>>& dist, int n)
-{
-    for(int k = 0; k < n; ++k){
-        for(int i = 0; i < n; ++i){
-            for(int j = 0; j < n; ++j){
-                dist[i][j] = std::min( dist[i][j], dist[i][k] + dist[k][j] );
-            }
-        }
-    }
-}
-

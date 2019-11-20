@@ -11,9 +11,8 @@ int main()
     std::vector<std::vector<int>> weight_matrix;
     std::vector<std::vector<int>> imp_matrix;
     std::vector<std::vector<int>> flags_matrix;
-    read_map(weight_matrix, imp_matrix, flags_matrix);
-    
-    floyd_warshall(weight_matrix, weight_matrix.size());
+    std::vector<std::vector<int>> distances;
+    read_map(weight_matrix, imp_matrix, flags_matrix, distances);
    
     std::vector<int> solution;
 
