@@ -39,9 +39,9 @@ int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<
                 }
             }
             if(verbose) std::cout << "Importancia do vertice " << i << " é " << vertice_importance;
-            vertice_importance = (vertice_importance==0) ? 1 : vertice_importance;
+            vertice_importance = (vertice_importance == 0) ? 1 : vertice_importance;
             if(verbose) std::cout << " agora é " << vertice_importance << std::endl;
-            totalValue += weight_matrix[i][closest_unit]/vertice_importance;
+            totalValue += weight_matrix[i][closest_unit]*vertice_importance;
         }
         else
         {
