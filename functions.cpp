@@ -70,66 +70,6 @@ int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<
     return totalValue;
 }
 
-void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& solution, bool verbose)
-{
-    int current_point = rand() % weight_matrix.size();
-    for(int i = 0; i < numberUnits; i++)
-    {
-        int farthestDist = 100000;
-        int farthestIndex = 0;
-        for(int j = 0; j < weight_matrix.size(); j++)
-        {
-            auto it = std::find(solution.begin(), solution.end(), j);
-            if(weight_matrix[j][current_point] > farthestDist && it == solution.end())
-            {
-                farthestDist = weight_matrix[j][current_point];
-                farthestIndex = j;
-            }
-        }
-        solution.push_back(current_point);
-        current_point = farthestIndex;
-    }
-}
-
-std::vector<int> randomGreedy(int n_units, std::vector<int>& imp_vector, float size_RCL, bool verbose)
-{
-    /**
-     *  Guloso randomico:
-     *  Para cada policial escolhe uma localizacao aleatoria dentre as 10%
-     *  com maior importancia
-     */
-
-    std::vector<int> solution;
-
-    int real_size_RCL = imp_vector.size()*size_RCL;
-    if(real_size_RCL <= n_units*2) 
-    {
-        real_size_RCL = (int) n_units/size_RCL;
-        real_size_RCL = std::max(real_size_RCL, (int) imp_vector.size());
-    }
-    std::vector<int> sorted_imp_idx;
-    for (int i = 0; i < imp_vector.size(); i++)
-        sorted_imp_idx.push_back(i);
-
-    // Ordena decrescentemente o vetor de indices do vetor de importancia
-    // atraves da importancia daquele indice
-    std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
-            [&](int i, int j){return imp_vector[i] > imp_vector[j];});
-    
-    std::vector<int> choosed_locations;
-    for (int i = 0; i < n_units; i++)
-    {
-        int location = rand() % real_size_RCL;
-        while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
-            location = rand() % real_size_RCL;
-        
-        choosed_locations.push_back(location);
-        solution.push_back(location);
-    }   
-
-    return solution; 
-}
-
 int adj_imp_sum(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int position)
 {
     int adj_sum = 0;
@@ -142,45 +82,6 @@ int adj_imp_sum(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& 
     return adj_sum;
 }
 
-std::vector<int> randomGreedy2(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, float size_RCL, bool verbose)
-{
-    /**
-     *  Guloso randomico 2:
-     *  Para cada policial escolhe uma localizacao aleatoria dentre as 10%
-     *  com uma maior soma de importancia das cidades adjacentes
-     */
-    
-    std::vector<int> solution;
-
-    int real_size_RCL = imp_vector.size()*size_RCL;
-    if(real_size_RCL <= n_units*2) 
-    {
-        real_size_RCL = (int) n_units/size_RCL;
-        real_size_RCL = std::max(real_size_RCL, (int) imp_vector.size());
-    }
-    std::vector<int> sorted_imp_idx;
-    for (int i = 0; i < imp_vector.size(); i++)
-        sorted_imp_idx.push_back(i);
-
-    // Ordena decrescentemente o vetor de indices do vetor de importancia
-    // atraves da importancia daquele indice
-    std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
-            [&](int i, int j){return adj_imp_sum(weight_matrix, imp_vector, i) > adj_imp_sum(weight_matrix, imp_vector, j);});
-
-    std::vector<int> choosed_locations;
-    for (int i = 0; i < n_units; i++)
-    {
-        int location = rand() % real_size_RCL;
-        while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
-            location = rand() % real_size_RCL;
-        
-        choosed_locations.push_back(location);
-        solution.push_back(location);
-    }   
-
-    return solution; 
-}
-
 int count_non_zero(std::vector<std::vector<int>>& weight_matrix, int position)
 {
     int non_zero = 0;
@@ -189,48 +90,81 @@ int count_non_zero(std::vector<std::vector<int>>& weight_matrix, int position)
     return non_zero;
 }
 
-std::vector<int> randomGreedy3(int n_units, std::vector<std::vector<int>>& weight_matrix, float size_RCL, bool verbose)
+std::vector<int> greedy(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::string method, float size_RCL, bool verbose)
 {
-    /**
-     *  Guloso randomico 2:
-     *  Para cada policial escolhe uma localizacao aleatoria dentre as 10%
-     *  com um maior numero de cidades adjacentes (independente de suas importancias)
-     */
-    
-    std::vector<int> solution;
-
-    int real_size_RCL = weight_matrix.size()*size_RCL;
-    if(real_size_RCL <= n_units*2) 
+    if(method.compare("default") == 0)
     {
-        real_size_RCL = (int) n_units/size_RCL;
-        real_size_RCL = std::max(real_size_RCL, (int) weight_matrix.size());
-    }
-    std::vector<int> sorted_imp_idx;
-    for (int i = 0; i < weight_matrix.size(); i++)
-        sorted_imp_idx.push_back(i);
+        std::vector<int> solution;
+            
+        std::vector<int> sorted_imp_idx;
+        for (int i = 0; i < weight_matrix.size(); i++)
+            sorted_imp_idx.push_back(i);
 
-    // Ordena decrescentemente o vetor de indices do vetor de importancia
-    // atraves da importancia daquele indice
-    std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
-            [&](int i, int j){return count_non_zero(weight_matrix, i) > count_non_zero(weight_matrix, j);});
-    
-    std::vector<int> choosed_locations;
-    for (int i = 0; i < n_units; i++)
-    {
-        int location = rand() % real_size_RCL;
-        while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
-            location = rand() % real_size_RCL;
+        // Ordena decrescentemente o vetor de indices do vetor de importancia
+        // atraves da importancia daquele indice
+        std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+                [&](int i, int j){return adj_imp_sum(weight_matrix, imp_vector, i) > adj_imp_sum(weight_matrix, imp_vector, j);});
         
-        choosed_locations.push_back(location);
-        solution.push_back(location);
-    }   
+        for (int i = 0; i < n_units; i++)
+        {
+            solution.push_back(sorted_imp_idx[i]);
+        }
 
-    return solution;  
+        return solution;
+    }
+    else
+    {
+        std::vector<int> solution;
+
+        int real_size_RCL = weight_matrix.size()*size_RCL;
+        if(real_size_RCL <= n_units*2) 
+            real_size_RCL = std::min(n_units*2, (int) weight_matrix.size());
+            
+        std::vector<int> sorted_imp_idx;
+        for (int i = 0; i < weight_matrix.size(); i++)
+            sorted_imp_idx.push_back(i);
+
+        if(method.compare("random_1") == 0)
+        {
+            // Ordena decrescentemente o vetor de indices do vetor de importancia
+            // atraves da importancia daquele indice
+            std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+                    [&](int i, int j){return imp_vector[i] > imp_vector[j];});
+        }
+        else if(method.compare("random_2") == 0)
+        {
+            // Ordena decrescentemente o vetor de indices do vetor de importancia
+            // atraves da importancia dos locais adjacentes a ele
+            std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+                    [&](int i, int j){return adj_imp_sum(weight_matrix, imp_vector, i) > adj_imp_sum(weight_matrix, imp_vector, j);});
+        }
+        else if(method.compare("random_3") == 0)
+        {
+            // Ordena decrescentemente o vetor de indices do vetor de importancia
+            // atraves do numero de locais adjacentes
+            std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+                    [&](int i, int j){return count_non_zero(weight_matrix, i) > count_non_zero(weight_matrix, j);});
+        }else
+        {
+            throw "Metodo invalido para o guloso.";
+        }
+        
+        std::vector<int> choosed_locations;
+        for (int i = 0; i < n_units; i++)
+        {
+            int location = rand() % real_size_RCL;
+            while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
+                location = rand() % real_size_RCL;
+            
+            choosed_locations.push_back(location);
+            solution.push_back(location);
+        }
+
+        return solution;
+    }
+
 }
 
-/*
- * Vizinhanças 
- */
 void changePositions(std::vector<int>& solution, int unit, int position)
 {
     solution[unit] = position;
@@ -238,6 +172,7 @@ void changePositions(std::vector<int>& solution, int unit, int position)
 
 void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, int numberUnits, bool verbose)
 {
+    solution = greedy(numberUnits, weight_matrix, imp_vector, "default");
     std::vector<int> previous_solution = solution;
     std::vector<int> current_solution = solution;
 
