@@ -12,3 +12,6 @@ std::vector<int> randomGreedy2(int n_units, std::vector<std::vector<int>>& weigh
 
 int count_non_zero(std::vector<std::vector<int>>& weight_matrix, int position);
 std::vector<int> randomGreedy3(int n_units, std::vector<std::vector<int>>& weight_matrix, float size_RCL = 0.1, bool verbose = false);
+
+void changePositions(std::vector<int>& solution, int unit, int position);
+void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, int numberUnits, bool verbose = false);

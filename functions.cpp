@@ -79,7 +79,7 @@ void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matri
         int farthestIndex = 0;
         for(int j = 0; j < weight_matrix.size(); j++)
         {
-            auto it = std::find(solution.begin(), solution.end(), solution.size());
+            auto it = std::find(solution.begin(), solution.end(), j);
             if(weight_matrix[j][current_point] > farthestDist && it == solution.end())
             {
                 farthestDist = weight_matrix[j][current_point];
@@ -226,4 +226,58 @@ std::vector<int> randomGreedy3(int n_units, std::vector<std::vector<int>>& weigh
     }   
 
     return solution;  
+}
+
+/*
+ * Vizinhanças 
+ */
+void changePositions(std::vector<int>& solution, int unit, int position)
+{
+    solution[unit] = position;
+}
+
+void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, int numberUnits, bool verbose)
+{
+    std::vector<int> previous_solution = solution;
+    std::vector<int> current_solution = solution;
+
+    int imax = 100;
+    int current_value = objectiveFunction(weight_matrix, imp_vector, current_solution, true);
+    int best_value = current_value;
+    bool foundit = false;
+    for(int iter = 0; iter < imax; iter++)
+    {
+        for(int i = 0; i < numberUnits; i++)
+        {
+            for(int j = 0; j < weight_matrix.size(); j++)
+            {
+                previous_solution = current_solution;
+                auto it = std::find(current_solution.begin(), current_solution.end(), j);
+
+                if(it != current_solution.end())
+                {
+                    continue;
+                }
+
+                changePositions(current_solution, i, j);
+                current_value = objectiveFunction(weight_matrix, imp_vector, current_solution, true);
+            
+                if(current_value < best_value)
+                {
+                    if(verbose) std::cout << "Coloquei a unidade " << i << " em " << j << std::endl;
+                    if(verbose) std::cout << best_value << " " << current_value << std::endl;
+                    best_value = current_value;
+                    foundit = true;
+                    break;
+                }
+                else
+                {
+                    current_solution = previous_solution;
+                    foundit = false;
+                }
+            }
+            if(foundit) break;
+        }
+    }
+    solution = current_solution;
 }
