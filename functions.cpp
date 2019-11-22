@@ -1,23 +1,29 @@
 #include <bits/stdc++.h>
 #include "functions.h"
 
-std::vector<int> get_importance(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, bool verbose)
+std::vector<int> get_importance(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, bool set_all_one, bool verbose)
 {
     std::vector<int> imp_vector;
-    for(int i = 0; i < weight_matrix.size(); i++)
-    {
-        int vertice_importance = 0, count_imp = 0;
-        for(int j = 0; j < imp_matrix.size(); j++)
+    if(set_all_one){
+        for(int i = 0; i < weight_matrix.size(); i++)
+            imp_vector.push_back(1);
+    }else{
+        for(int i = 0; i < weight_matrix.size(); i++)
         {
-            if(imp_matrix[i][j] != -1)
+            int vertice_importance = 0, count_imp = 0;
+            for(int j = 0; j < imp_matrix.size(); j++)
             {
-                vertice_importance += imp_matrix[i][j];
-                count_imp++;
+                if(imp_matrix[i][j] != -1)
+                {
+                    vertice_importance += imp_matrix[i][j];
+                    count_imp++;
+                }
             }
+            imp_vector.push_back(vertice_importance);
+            //imp_vector.push_back(vertice_importance/count_imp);
         }
-        imp_vector.push_back(vertice_importance);
-        //imp_vector.push_back(vertice_importance/count_imp);
     }
+    
     return imp_vector;
 }
 
@@ -85,7 +91,7 @@ void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matri
     }
 }
 
-std::vector<int> randomGreedy(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, float size_RCL, bool verbose)
+std::vector<int> randomGreedy(int n_units, std::vector<int>& imp_vector, float size_RCL, bool verbose)
 {
     /**
      *  Guloso randomico:
@@ -111,7 +117,7 @@ std::vector<int> randomGreedy(int n_units, std::vector<std::vector<int>>& weight
             [&](int i, int j){return imp_vector[i] > imp_vector[j];});
     
     std::vector<int> choosed_locations;
-    for (int i = 0; i < real_size_RCL; i++)
+    for (int i = 0; i < n_units; i++)
     {
         int location = rand() % real_size_RCL;
         while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
@@ -124,17 +130,63 @@ std::vector<int> randomGreedy(int n_units, std::vector<std::vector<int>>& weight
     return solution; 
 }
 
+int adj_imp_sum(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int position)
+{
+    int adj_sum = 0;
+    for (int i = 0; i < weight_matrix[position].size(); i++)
+    {
+        if(weight_matrix[position][i] != 0)
+            adj_sum += imp_vector[i];
+    }
+        
+    return adj_sum;
+}
+
 std::vector<int> randomGreedy2(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, float size_RCL, bool verbose)
 {
     /**
      *  Guloso randomico 2:
      *  Para cada policial escolhe uma localizacao aleatoria dentre as 10%
-     *  com um maior numero de cidades adjacentes com grandes importancias
+     *  com uma maior soma de importancia das cidades adjacentes
      */
     
     std::vector<int> solution;
 
+    int real_size_RCL = imp_vector.size()*size_RCL;
+    if(real_size_RCL <= n_units*2) 
+    {
+        real_size_RCL = (int) n_units/size_RCL;
+        real_size_RCL = std::max(real_size_RCL, (int) imp_vector.size());
+    }
+    std::vector<int> sorted_imp_idx;
+    for (int i = 0; i < imp_vector.size(); i++)
+        sorted_imp_idx.push_back(i);
+
+    // Ordena decrescentemente o vetor de indices do vetor de importancia
+    // atraves da importancia daquele indice
+    std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+            [&](int i, int j){return adj_imp_sum(weight_matrix, imp_vector, i) > adj_imp_sum(weight_matrix, imp_vector, j);});
+
+    std::vector<int> choosed_locations;
+    for (int i = 0; i < n_units; i++)
+    {
+        int location = rand() % real_size_RCL;
+        while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
+            location = rand() % real_size_RCL;
+        
+        choosed_locations.push_back(location);
+        solution.push_back(location);
+    }   
+
     return solution; 
+}
+
+int count_non_zero(std::vector<std::vector<int>>& weight_matrix, int position)
+{
+    int non_zero = 0;
+    for (int i = 0; i < weight_matrix[position].size(); i++)
+        if(weight_matrix[position][i] != 0) non_zero++;
+    return non_zero;
 }
 
 std::vector<int> randomGreedy3(int n_units, std::vector<std::vector<int>>& weight_matrix, float size_RCL, bool verbose)
@@ -147,5 +199,31 @@ std::vector<int> randomGreedy3(int n_units, std::vector<std::vector<int>>& weigh
     
     std::vector<int> solution;
 
-    return solution; 
+    int real_size_RCL = weight_matrix.size()*size_RCL;
+    if(real_size_RCL <= n_units*2) 
+    {
+        real_size_RCL = (int) n_units/size_RCL;
+        real_size_RCL = std::max(real_size_RCL, (int) weight_matrix.size());
+    }
+    std::vector<int> sorted_imp_idx;
+    for (int i = 0; i < weight_matrix.size(); i++)
+        sorted_imp_idx.push_back(i);
+
+    // Ordena decrescentemente o vetor de indices do vetor de importancia
+    // atraves da importancia daquele indice
+    std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
+            [&](int i, int j){return count_non_zero(weight_matrix, i) > count_non_zero(weight_matrix, j);});
+    
+    std::vector<int> choosed_locations;
+    for (int i = 0; i < n_units; i++)
+    {
+        int location = rand() % real_size_RCL;
+        while(std::find(choosed_locations.begin(), choosed_locations.end(), location) != choosed_locations.end())
+            location = rand() % real_size_RCL;
+        
+        choosed_locations.push_back(location);
+        solution.push_back(location);
+    }   
+
+    return solution;  
 }
