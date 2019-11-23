@@ -172,11 +172,10 @@ void changePositions(std::vector<int>& solution, int unit, int position)
 
 void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, int numberUnits, bool verbose)
 {
-    solution = greedy(numberUnits, weight_matrix, imp_vector, "default");
     std::vector<int> previous_solution = solution;
     std::vector<int> current_solution = solution;
 
-    int imax = 100;
+    int imax = 10;
     int current_value = objectiveFunction(weight_matrix, imp_vector, current_solution, true);
     int best_value = current_value;
     bool foundit = false;
@@ -215,4 +214,162 @@ void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>&
         }
     }
     solution = current_solution;
+}
+
+void initialPopulation(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector,     std::vector<std::vector<int>>& population)
+{    
+    for(int i = 0; i < popSize; i++)
+    {
+        int method = (rand() % 3) + 1;
+        population.push_back(greedy(n_units, weight_matrix, imp_vector, "random_" + std::to_string(method), size_RCL));
+    }
+}
+
+void goodRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector)
+{
+    int worst_value = objectiveFunction(weight_matrix, imp_vector, population[0], true);
+    int worst_index = 0;
+    int cur_value;
+    for(int i = 0; i < 5; i++)
+    {
+        cur_value = objectiveFunction(weight_matrix, imp_vector, population[i], true);
+        if(cur_value > worst_value)
+        {
+            worst_value = cur_value;
+            worst_index = i;
+        }
+        refset.push_back(population[i]);
+    }
+    for(int i = 5; i < population.size(); i++)
+    {
+        cur_value = objectiveFunction(weight_matrix, imp_vector, population[i], true);
+        if(cur_value < worst_value)
+        {
+            refset[worst_index] = population[i];
+        }
+        worst_value = cur_value;
+        for(int j = 0; j < refset.size(); j++)
+        {
+            cur_value = objectiveFunction(weight_matrix, imp_vector, refset[j], true);
+            if(cur_value >= worst_value)
+            {
+                worst_value = cur_value;
+                worst_index = j;
+            }
+        }
+    }
+}
+
+void randomRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector)
+{
+    for(int i = 0; i < 5; i++)
+    {
+        int item = rand() % population.size();
+        refset.push_back(population[item]);
+    }
+} 
+
+void genSubsets(std::vector<std::pair<std::vector<int>, std::vector<int>>>& subsets, std::vector<std::vector<int>>& refset)
+{
+    for(int i = 0; i < refset.size(); i++)
+    {
+        for(int j = i; j < refset.size(); j++)
+        {
+            subsets.push_back(std::make_pair(refset[i], refset[j]));
+        }
+    }
+}
+
+std::vector<int> combineSolutions(std::vector<int>& sol1, std::vector<int>& sol2)
+{
+    std::vector<int> aux;
+    for(int i = 0; i < sol1.size()/2; i++)
+    {
+        aux.push_back(sol1[i]);
+    }
+    for(int i = sol1.size()/2; i < sol1.size(); i++)
+    {
+        aux.push_back(sol2[i]);
+    }
+
+    for(int i = 0; i < aux.size(); i++)
+    {
+        if(count(aux.begin(),aux.end(),aux[i]) > 1)
+        {
+            for(int j = 0; j < sol1.size(); j++)
+            {
+                auto it = std::find (aux.begin(), aux.end(), sol1[j]);
+                if (it == aux.end())
+                {
+                    aux[i] = sol1[j];
+                    break;
+                }
+            }
+        }
+    }
+    return aux;
+}
+
+int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, bool verbose)
+{
+    int imax = 10;
+    std::vector<std::vector<int>> population;
+    //Diversification generation method
+    initialPopulation(popSize, n_units, size_RCL, weight_matrix, imp_vector, population);
+    
+    //Improvement method
+    for(int i = 0; i < popSize; i++)
+    {
+        localSearch(weight_matrix, imp_vector, population[i], n_units, false);
+    }
+
+    std::vector<std::vector<int>> refset;
+    //Reference set update method
+    goodRefSet(population, refset, weight_matrix, imp_vector);
+    randomRefSet(population, refset, weight_matrix, imp_vector);
+    
+    if(verbose) std::cout << "Created 1st refset\n";
+    for(int iter = 0; iter < imax; iter++)
+    {
+        std::vector<std::vector<int>> new_population;
+
+        //Subset generation method
+        std::vector<std::pair<std::vector<int>, std::vector<int>>> subsets;
+        genSubsets(subsets, refset);
+        if(verbose) std::cout << "Generated subsets\n";
+        //Solution combination method
+        int is = 0;
+        while(!subsets.empty() && is < 10)
+        {
+            std::pair<std::vector<int>, std::vector<int>> subset = subsets.back();
+            subsets.pop_back();
+            std::vector<int> child = combineSolutions(subset.first, subset.second);
+            localSearch(weight_matrix, imp_vector, child, n_units, false);
+            new_population.push_back(child);
+            is++;
+        }
+        if(verbose) std::cout << "Created new pop\n";
+        population.clear();
+        population = new_population;
+        for(int i = 0; i < refset.size(); i++)
+        {
+            population.push_back(refset[i]);
+        }
+        refset.clear();
+
+        goodRefSet(population, refset, weight_matrix, imp_vector);
+        randomRefSet(population, refset, weight_matrix, imp_vector);
+    }
+
+    int best_value = objectiveFunction(weight_matrix, imp_vector, population[0], true);
+    int cur_value;
+    for(int i = 0; i < population.size(); i++)
+    {
+        cur_value = objectiveFunction(weight_matrix, imp_vector, population[i], true);
+        if(cur_value < best_value)
+        {
+            best_value = cur_value;
+        }
+    }
+    return best_value;
 }

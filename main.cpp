@@ -50,8 +50,7 @@ int main()
         std::cout << x << " ";
     }std::cout << std::endl;*/
 
-    localSearch(distances, imp_vector, solution3, 10, true);
-    for (auto x: solution3){
-        std::cout << x << " ";
-    }std::cout << std::endl;
+    std::vector<int> solution1 = greedy(10, weight_matrix, imp_vector, "default");
+    std::cout << objectiveFunction(distances, imp_vector, solution1, true) << " ";    
+    std::cout << scatterSearch(30, 10, 0.1, distances, imp_vector) << std::endl;
 }
