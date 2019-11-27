@@ -216,7 +216,7 @@ void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>&
     solution = current_solution;
 }
 
-void initialPopulation(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector,     std::vector<std::vector<int>>& population)
+void initialPopulation(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<std::vector<int>>& population)
 {    
     for(int i = 0; i < popSize; i++)
     {
@@ -372,4 +372,91 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
         }
     }
     return best_value;
+}
+
+// GA
+
+std::vector<int> evaluatePopulation(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<std::vector<int>> population)
+{
+    // Adquire a avaliacao media da populacao
+    std::vector<int> evaluate_p;
+    for (auto solution: population)
+    {
+        evaluate_p.push_back(objectiveFunction(weight_matrix, imp_vector, solution, true));
+    }
+    return evaluate_p;
+}
+
+std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population, std::vector<int> evaluate_p, int n_selected)
+{
+    // Stochastic Universal Sampling (SUS)
+    std::vector<int> roulette_numbers;
+    int normalized_value = (int) evaluate_p[0]/100000;
+    int total_value = normalized_value;
+    roulette_numbers.push_back(normalized_value);
+    for (int i = 1; i < evaluate_p.size(); i++)
+    {
+        normalized_value = (int) evaluate_p[i]/100000;
+        roulette_numbers.push_back(normalized_value + evaluate_p[i-1]);
+        total_value += normalized_value;
+    }
+
+    int pointer_distance = (int) total_value/n_selected;
+
+    int first_pointer = rand() % total_value;
+    int actual_pointer = first_pointer;
+
+    std::vector<std::vector<int>> selected;
+    std::vector<int> choosed;
+    for(int i = 0; i < n_selected; i++)
+    {
+        auto it = std::lower_bound(roulette_numbers.begin(), roulette_numbers.end(), actual_pointer);
+        int solution_pos = std::distance(roulette_numbers.begin(), it);
+
+        while(std::find(choosed.begin(), choosed.end(), solution_pos) != choosed.end())
+            solution_pos = (solution_pos + 1) % population.size();
+
+        selected.push_back(population[solution_pos]);
+        choosed.push_back(solution_pos);
+
+        actual_pointer = (actual_pointer + pointer_distance) % population.size();
+    }
+
+    return selected;
+}
+
+std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents)
+{
+    ;
+}
+
+std::vector<std::vector<int>> replace(std::vector<std::vector<int>> population, std::vector<std::vector<int>> new_generation, std::vector<int> evaluate_p, std::vector<int> evaluate_new_p)
+{
+    ;
+}
+
+int genetic_algorithm(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int n_units, int pop_size, int size_RCL, bool verbose)
+{
+    int imax = 10;
+
+    std::vector<std::vector<int>> population;
+
+    // Diversification generation method
+    initialPopulation(pop_size, n_units, size_RCL, weight_matrix, imp_vector, population);
+
+    for (int i = 0; i < imax; i++)
+    {
+        // Evaluate population
+        std::vector<int> evaluate_p = evaluatePopulation(weight_matrix, imp_vector, population);
+
+        // Generate new population
+        std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p, population.size()/2));
+
+        // Evaluate new population
+        std::vector<int> evaluate_new_p = evaluatePopulation(weight_matrix, imp_vector, new_generation);
+
+        // Selection of next population
+        std::vector<std::vector<int>> next_population = replace(population, new_generation, evaluate_p, evaluate_new_p);
+    }
+
 }
