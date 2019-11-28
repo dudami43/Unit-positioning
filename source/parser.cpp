@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "parser.h"
 
-void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<std::vector<int>>& flags_matrix, std::vector<std::vector<int>>& distances)
+void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<std::vector<int>>& flags_matrix, std::vector<std::vector<int>>& distances, int& n_units, std::string namefile)
 {
     weight_matrix.clear();
     imp_matrix.clear();
@@ -11,11 +11,15 @@ void read_map(std::vector<std::vector<int>>& weight_matrix, std::vector<std::vec
     // Faz o parser das ruas
     std::ifstream file, file_floyd;
     std::string line;
-    file.open("data/vicosa.txt");
+    file.open(namefile);
     try
     {
         if (file.is_open())
         {
+            
+            getline(file, line);
+            n_units = stoi(line);
+
             getline(file, line);
             int n_vertex = stoi(line);
             

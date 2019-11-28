@@ -90,6 +90,27 @@ int count_non_zero(std::vector<std::vector<int>>& weight_matrix, int position)
     return non_zero;
 }
 
+void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matrix, std::vector<std::vector<int>>& imp_matrix, std::vector<int>& solution, bool verbose)
+{
+    int current_point = rand() % weight_matrix.size();
+    for(int i = 0; i < numberUnits; i++)
+    {
+        int farthestDist = 100000;
+        int farthestIndex = 0;
+        for(int j = 0; j < weight_matrix.size(); j++)
+        {
+            auto it = std::find(solution.begin(), solution.end(), solution.size());
+            if(weight_matrix[j][current_point] > farthestDist && it == solution.end())
+            {
+                farthestDist = weight_matrix[j][current_point];
+                farthestIndex = j;
+            }
+        }
+        solution.push_back(current_point);
+        current_point = farthestIndex;
+    }
+} 
+
 std::vector<int> greedy(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::string method, float size_RCL, bool verbose)
 {
     if(method.compare("default") == 0)
@@ -225,12 +246,12 @@ void initialPopulation(int popSize, int n_units, float size_RCL, std::vector<std
     }
 }
 
-void goodRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector)
+void goodRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int sizeRS)
 {
     int worst_value = objectiveFunction(weight_matrix, imp_vector, population[0], true);
     int worst_index = 0;
     int cur_value;
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < sizeRS; i++)
     {
         cur_value = objectiveFunction(weight_matrix, imp_vector, population[i], true);
         if(cur_value > worst_value)
@@ -240,7 +261,7 @@ void goodRefSet(std::vector<std::vector<int>>& population, std::vector<std::vect
         }
         refset.push_back(population[i]);
     }
-    for(int i = 5; i < population.size(); i++)
+    for(int i = sizeRS; i < population.size(); i++)
     {
         cur_value = objectiveFunction(weight_matrix, imp_vector, population[i], true);
         if(cur_value < worst_value)
@@ -260,9 +281,9 @@ void goodRefSet(std::vector<std::vector<int>>& population, std::vector<std::vect
     }
 }
 
-void randomRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector)
+void randomRefSet(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& refset, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int sizeRS)
 {
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < sizeRS; i++)
     {
         int item = rand() % population.size();
         refset.push_back(population[item]);
@@ -310,9 +331,8 @@ std::vector<int> combineSolutions(std::vector<int>& sol1, std::vector<int>& sol2
     return aux;
 }
 
-int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, bool verbose)
+int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int gRS, int rRS, int imax, bool verbose)
 {
-    int imax = 10;
     std::vector<std::vector<int>> population;
     //Diversification generation method
     initialPopulation(popSize, n_units, size_RCL, weight_matrix, imp_vector, population);
@@ -325,8 +345,8 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
 
     std::vector<std::vector<int>> refset;
     //Reference set update method
-    goodRefSet(population, refset, weight_matrix, imp_vector);
-    randomRefSet(population, refset, weight_matrix, imp_vector);
+    goodRefSet(population, refset, weight_matrix, imp_vector, gRS);
+    randomRefSet(population, refset, weight_matrix, imp_vector, rRS);
     
     if(verbose) std::cout << "Created 1st refset\n";
     for(int iter = 0; iter < imax; iter++)
@@ -357,8 +377,8 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
         }
         refset.clear();
 
-        goodRefSet(population, refset, weight_matrix, imp_vector);
-        randomRefSet(population, refset, weight_matrix, imp_vector);
+        goodRefSet(population, refset, weight_matrix, imp_vector, gRS);
+        randomRefSet(population, refset, weight_matrix, imp_vector, rRS);
     }
 
     int best_value = objectiveFunction(weight_matrix, imp_vector, population[0], true);
