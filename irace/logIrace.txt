@@ -14,9 +14,9 @@
 #     race: Racing methods for the selection of the best
 #     Copyright (C) 2003 Mauro Birattari
 #------------------------------------------------------------------------------
-# installed at: /home/maria/R/x86_64-pc-linux-gnu-library/3.5/irace
+# installed at: /home/maria/R/x86_64-pc-linux-gnu-library/3.6/irace
 # called with: --scenario scenario.txt
-# 2019-11-01 21:16:26 -03: Initialization
+# 2019-11-29 14:17:33 -03: Initialization
 # Elitist race
 # Elitist new instances: 1
 # Elitist limit: 2
@@ -25,15 +25,15 @@
 # nbParameters: 5
 # seed: 786433
 # confidence level: 0.95
-# budget: 3000
+# budget: 200
 # mu: 5
 # deterministic: FALSE
 
-# 2019-11-01 21:16:26 -03: Iteration 1 of 4
+# 2019-11-29 14:17:33 -03: Iteration 1 of 4
 # experimentsUsedSoFar: 0
-# remainingBudget: 3000
-# currentBudget: 750
-# nbConfigurations: 125
+# remainingBudget: 200
+# currentBudget: 50
+# nbConfigurations: 8
   Markers:
      x No test is performed.
      - The test is performed and some configurations are discarded.

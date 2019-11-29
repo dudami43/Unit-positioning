@@ -65,7 +65,7 @@ int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<
         else
         {
             totalValue += weight_matrix[i][closest_unit];
-        }        
+        }
     }
     return totalValue;
 }

@@ -3,10 +3,10 @@ OPTIONS= -c -O2 -m64 -march=native -std=c++11 -w
 
 all: Main
 Main: Main.o Functions.o Parser.o 
-	$(CC) -o Main main.o functions.o parser.o -lm
+	$(CC) -o Main main_irace.o functions.o parser.o -lm
 
-Main.o: main.cpp parser.h functions.h 
-	$(CC) $(OPTIONS) main.cpp 
+Main.o: main_irace.cpp parser.h functions.h 
+	$(CC) $(OPTIONS) main_irace.cpp 
 
 Functions.o: functions.cpp functions.h 
 	$(CC) $(OPTIONS) functions.cpp 

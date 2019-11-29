@@ -37,14 +37,13 @@ int main(int argc, char **argv)
 
     srand (rng_seed);
 
-    int n_units = 10;
+    int n_units;
 
     std::vector<std::vector<int>> weight_matrix;
     std::vector<std::vector<int>> imp_matrix;
     std::vector<std::vector<int>> flags_matrix;
     std::vector<std::vector<int>> distances;
     std::vector<int> imp_vector;
-    int n_units;
 
     read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, argv[1]);
     imp_vector = get_importance(weight_matrix, imp_matrix);
