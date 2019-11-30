@@ -510,8 +510,6 @@ std::pair<std::vector<int>, std::vector<int>> crossover(std::vector<int> individ
         }
     }
 
-    std::cout << new_individual_1.size() << " " << new_individual_2.size() << " --- " << count << " --- ";
-
     for (int i = 0; i < exclusive_1.size()/2; i++)
     {
             new_individual_1.push_back(exclusive_1[i]);
@@ -524,17 +522,15 @@ std::pair<std::vector<int>, std::vector<int>> crossover(std::vector<int> individ
 
     for (int i = 0; i < exclusive_2.size()/2; i++)
     {
-            new_individual_1.push_back(exclusive_2[i]);
+            new_individual_2.push_back(exclusive_2[i]);
     }
 
     for (int i = exclusive_2.size()/2; i < exclusive_2.size(); i++)
     {
-            new_individual_2.push_back(exclusive_2[i]);
+            new_individual_1.push_back(exclusive_2[i]);
     }
 
     if (verbose) std::cout << "Finalizou o crossover" << std::endl;
-
-    std::cout << new_individual_1.size() << " " << new_individual_2.size() << std::endl;
 
     return std::make_pair(new_individual_1, new_individual_2);
 }
@@ -590,17 +586,18 @@ std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents
     return new_population;
 }
 
-void replace(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose)
+void replace_pop(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose)
 {
+    if(verbose) std::cout << "Tamanho da nova geracao: " << new_generation.size() <<"\nTamanho da populacao de parentes: " << population.size() << std::endl;
+    
     new_generation.reserve(population.size());
 
     std::vector<int> choosed;
-    for (int i = 0; i < population.size(); i++)
+    for (int i = 0; i < new_generation.size(); i++)
     {
         int position = rand() % population.size();
         while(std::find(choosed.begin(), choosed.end(), position) != choosed.end()) position = rand() % population.size();
         choosed.push_back(position);
-
         population[position] = new_generation[i];
     }
 }
@@ -624,7 +621,6 @@ int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>
 
     for (int i = 0; i < imax; i++)
     {
-        std::cout << "iteracao " << i << std::endl;
         // Generate new population
         std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p.first, population.size()/2, false), imp_vector.size(), false);
 
@@ -641,12 +637,12 @@ int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>
             best_solution_value = evaluate_new_p.first[evaluate_new_p.second];
         }
 
-        replace(population, new_generation, verbose);
+        replace_pop(population, new_generation, verbose);
         
         if(verbose) std::cout << "Nova populacao gerada com " << population.size() << " individuos" << std::endl;
 
         // Evaluate new population
-        std::pair<std::vector<int>, int> evaluate_p = evaluatePopulation(distances, imp_vector, population, true);
+        std::pair<std::vector<int>, int> evaluate_p = evaluatePopulation(distances, imp_vector, population);
         if(verbose) std::cout << "A nova populacao teve seu melhor individuo avaliado em " << evaluate_p.first[evaluate_p.second] << std::endl << std::endl;
     }
 

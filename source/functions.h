@@ -22,5 +22,5 @@ std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population
 std::pair<std::vector<int>, std::vector<int>> crossover(std::vector<int> individual_1, std::vector<int> individual_2, bool verbose = false);
 void mutation(std::vector<std::vector<int>>& population, float chance, int n_places, bool verbose = false);
 std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents, bool verbose = false);
-void replace(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose = false);
+void replace_pop(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose = false);
 int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units = 20, int pop_size = 100, int imax = 10, float size_RCL = 0.1, bool verbose = false);
