@@ -47,12 +47,12 @@ int closestUnit(int point, std::vector<std::vector<int>>& weight_matrix, std::ve
     return minIndex;
 }
 
-int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, bool use_importance, bool verbose)
+int objectiveFunction(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, std::vector<int>& solution, bool use_importance, bool verbose)
 {
     int totalValue = 0;
-    for(int i = 0; i < weight_matrix.size(); i++)
+    for(int i = 0; i < distances.size(); i++)
     {
-        int closest_unit = closestUnit(i, weight_matrix, solution);
+        int closest_unit = closestUnit(i, distances, solution);
         if(verbose) std::cout << "Unidade mais próxima do vertice " << i << " é " << closest_unit << std::endl;
         if(use_importance)
         {
@@ -60,11 +60,11 @@ int objectiveFunction(std::vector<std::vector<int>>& weight_matrix, std::vector<
             if(verbose) std::cout << "Importancia do vertice " << i << " é " << vertice_importance;
             vertice_importance = (vertice_importance == 0) ? 1 : vertice_importance;
             if(verbose) std::cout << " agora é " << vertice_importance << std::endl;
-            totalValue += weight_matrix[i][closest_unit]*vertice_importance;
+            totalValue += distances[i][closest_unit]*vertice_importance;
         }
         else
         {
-            totalValue += weight_matrix[i][closest_unit];
+            totalValue += distances[i][closest_unit];
         }        
     }
     return totalValue;
@@ -376,21 +376,49 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
 
 // GA
 
-std::vector<int> evaluatePopulation(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<std::vector<int>> population)
+std::pair<std::vector<int>, int> evaluatePopulation(std::vector<std::vector<int>>& distance, std::vector<int>& imp_vector, std::vector<std::vector<int>> population, bool verbose)
 {
+    if (verbose) std::cout << "Inicio da avaliacao" << std::endl;
+
     // Adquire a avaliacao media da populacao
     std::vector<int> evaluate_p;
-    for (auto solution: population)
+    evaluate_p.reserve(population.size());
+
+    int best_solution_idx = 0;
+    evaluate_p.push_back(objectiveFunction(distance, imp_vector, population[0], true));
+    for (int i = 1; i < population.size(); i++)
     {
-        evaluate_p.push_back(objectiveFunction(weight_matrix, imp_vector, solution, true));
+        if (verbose) std::cout << i << "/" << population.size() << std::endl;
+
+        int value = objectiveFunction(distance, imp_vector, population[i], true);
+
+        if (verbose) std::cout << "Avaliou o individuo em: " << value << std::endl;
+
+        evaluate_p.push_back(value);
+
+        if (verbose) std::cout << "Adicionou o valor do individuo no vector de valores" << std::endl;
+
+        if (value < evaluate_p[best_solution_idx])
+        {
+            if (verbose) std::cout << "Setou o individuo como o melhor ate o momento" << value << std::endl;
+            best_solution_idx = i;
+        }
+        if (verbose) std::cout << std::endl;
     }
-    return evaluate_p;
+
+    if (verbose) std::cout << "Avaliacao finalizada" << std::endl;
+
+    return std::make_pair(evaluate_p, best_solution_idx);
 }
 
-std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population, std::vector<int> evaluate_p, int n_selected)
+std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population, std::vector<int> evaluate_p, int n_selected, bool verbose)
 {
+    if (verbose) std::cout << "Comecou o metodo SUS" << std::endl;
+
     // Stochastic Universal Sampling (SUS)
     std::vector<int> roulette_numbers;
+    roulette_numbers.reserve(evaluate_p.size());
+
     int normalized_value = (int) evaluate_p[0]/100000;
     int total_value = normalized_value;
     roulette_numbers.push_back(normalized_value);
@@ -401,6 +429,8 @@ std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population
         total_value += normalized_value;
     }
 
+    if (verbose) std::cout << "Adquiriu os "<< roulette_numbers.size() << " valores da roleta" << std::endl;
+
     int pointer_distance = (int) total_value/n_selected;
 
     int first_pointer = rand() % total_value;
@@ -408,6 +438,9 @@ std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population
 
     std::vector<std::vector<int>> selected;
     std::vector<int> choosed;
+    selected.reserve(n_selected);
+    choosed.reserve(n_selected);
+
     for(int i = 0; i < n_selected; i++)
     {
         auto it = std::lower_bound(roulette_numbers.begin(), roulette_numbers.end(), actual_pointer);
@@ -418,45 +451,184 @@ std::vector<std::vector<int>> selection(std::vector<std::vector<int>> population
 
         selected.push_back(population[solution_pos]);
         choosed.push_back(solution_pos);
-
+        
         actual_pointer = (actual_pointer + pointer_distance) % population.size();
     }
 
-    return selected;
+    if (verbose) std::cout << "Finalizou o metodo SUS com " << selected.size() << " de " << n_selected << " individuos selecionados" << std::endl;
+
+    if (verbose) return selected;
 }
 
-std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents)
+std::pair<std::vector<int>, std::vector<int>> crossover(std::vector<int> individual_1, std::vector<int> individual_2, bool verbose)
 {
-    ;
+    if (verbose) std::cout << "Comecou o metodo crossover" << std::endl;
+
+    std::vector<int> new_individual_1, new_individual_2;
+
+    new_individual_1.reserve(individual_1.size());
+    new_individual_2.reserve(individual_2.size());
+
+    std::vector<int> exclusive_1, exclusive_2;
+    int count = 0;
+    for (int i = 0; i < individual_1.size(); i++)
+    {
+        if(find(individual_2.begin(), individual_2.end(), individual_1[i]) != individual_2.end())
+        {
+            count++;
+            new_individual_1.push_back(individual_1[i]);
+            new_individual_2.push_back(individual_1[i]);
+        }
+        else
+        {
+            exclusive_1.push_back(individual_1[i]);
+        }
+
+        if(find(individual_1.begin(), individual_1.end(), individual_2[i]) == individual_1.end())
+        {
+            exclusive_2.push_back(individual_2[i]);
+        }
+    }
+
+    std::cout << new_individual_1.size() << " " << new_individual_2.size() << " --- " << count << " --- ";
+
+    for (int i = 0; i < exclusive_1.size()/2; i++)
+    {
+            new_individual_1.push_back(exclusive_1[i]);
+    }
+
+    for (int i = exclusive_1.size()/2; i < exclusive_1.size(); i++)
+    {
+            new_individual_2.push_back(exclusive_2[i]);
+    }
+
+    for (int i = 0; i < exclusive_2.size()/2; i++)
+    {
+            new_individual_1.push_back(exclusive_2[i]);
+    }
+
+    for (int i = exclusive_2.size()/2; i < exclusive_2.size(); i++)
+    {
+            new_individual_2.push_back(exclusive_2[i]);
+    }
+
+    if (verbose) std::cout << "Finalizou o crossover" << std::endl;
+
+    std::cout << new_individual_1.size() << " " << new_individual_2.size() << std::endl;
+
+    return std::make_pair(new_individual_1, new_individual_2);
 }
 
-std::vector<std::vector<int>> replace(std::vector<std::vector<int>> population, std::vector<std::vector<int>> new_generation, std::vector<int> evaluate_p, std::vector<int> evaluate_new_p)
+void mutation(std::vector<std::vector<int>>& population, float chance, int n_places, bool verbose)
 {
-    ;
+    if (verbose) std::cout << "Comecou a mutacao" << std::endl;
+
+    int total = 1;
+    while(chance < 1)
+    {
+        total *= 10;
+        chance *= 10;
+    }
+
+    int mutation_result;
+    for (int i = 0; i < population.size(); i++)
+    {
+        mutation_result = rand() % total;
+        if (mutation_result < chance)
+        {
+            int histone = rand() % population[i].size();
+            int new_value = rand() % n_places;
+            while (find(population[i].begin(), population[i].end(), new_value) != population[i].end()) new_value = rand() % n_places;
+            population[i][histone] = new_value;
+        }
+    }
+
+    if (verbose) std::cout << "Finalizou a mutacao" << std::endl;
 }
 
-int genetic_algorithm(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int n_units, int pop_size, int size_RCL, bool verbose)
+std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents, int n_places, bool verbose)
 {
-    int imax = 10;
+    if (verbose) std::cout << "Comecou a reproducao" << std::endl;
 
+    std::vector<std::vector<int>> new_population;
+    new_population.reserve(parents.size());
+
+    // Crossover
+    std::pair<std::vector<int>, std::vector<int>> new_individuals;
+    for(int i = 0; i < parents.size()/2; i++)
+    {
+        new_individuals = crossover(parents[i], parents[(parents.size() - 1) - i], verbose);
+        new_population.push_back(new_individuals.first);
+        new_population.push_back(new_individuals.second);
+    }
+
+    // Mutacao
+    mutation(new_population, 0.01, n_places, verbose);
+
+    if (verbose) std::cout << "Terminou a reproducao com " << new_population.size() << " individuos" << std::endl;
+
+    return new_population;
+}
+
+void replace(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose)
+{
+    new_generation.reserve(population.size());
+
+    std::vector<int> choosed;
+    for (int i = 0; i < population.size(); i++)
+    {
+        int position = rand() % population.size();
+        while(std::find(choosed.begin(), choosed.end(), position) != choosed.end()) position = rand() % population.size();
+        choosed.push_back(position);
+
+        population[position] = new_generation[i];
+    }
+}
+
+int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int pop_size, int imax, float size_RCL, bool verbose)
+{
     std::vector<std::vector<int>> population;
 
     // Diversification generation method
-    initialPopulation(pop_size, n_units, size_RCL, weight_matrix, imp_vector, population);
+    initialPopulation(pop_size, n_units, size_RCL, distances, imp_vector, population);
+
+    if(verbose) std::cout << "Gerou a populacao inicial com tamanho " << population.size() << std::endl;
+
+    // Evaluate population
+    std::pair<std::vector<int>, int> evaluate_p = evaluatePopulation(distances, imp_vector, population);
+
+    if(verbose) std::cout << "Avaliou a populacao inicial e o melhor individuo obteve " << evaluate_p.first[evaluate_p.second] << std::endl << std::endl;
+
+    std::vector<int> best_solution = population[evaluate_p.second];
+    int best_solution_value = evaluate_p.first[evaluate_p.second];
 
     for (int i = 0; i < imax; i++)
     {
-        // Evaluate population
-        std::vector<int> evaluate_p = evaluatePopulation(weight_matrix, imp_vector, population);
-
+        std::cout << "iteracao " << i << std::endl;
         // Generate new population
-        std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p, population.size()/2));
+        std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p.first, population.size()/2, false), imp_vector.size(), false);
+
+        if(verbose) std::cout << "Aplicou selecao e reproducao" << std::endl;
+
+        // Evaluate generation
+        std::pair<std::vector<int>, int> evaluate_new_p = evaluatePopulation(distances, imp_vector, population);
+        
+        if(verbose) std::cout << "A nova geracao teve seu melhor individuo avaliado em " << evaluate_new_p.first[evaluate_new_p.second] << std::endl;
+
+        if (evaluate_new_p.first[evaluate_new_p.second] < best_solution_value)
+        {
+            best_solution = population[evaluate_new_p.second];
+            best_solution_value = evaluate_new_p.first[evaluate_new_p.second];
+        }
+
+        replace(population, new_generation, verbose);
+        
+        if(verbose) std::cout << "Nova populacao gerada com " << population.size() << " individuos" << std::endl;
 
         // Evaluate new population
-        std::vector<int> evaluate_new_p = evaluatePopulation(weight_matrix, imp_vector, new_generation);
-
-        // Selection of next population
-        std::vector<std::vector<int>> next_population = replace(population, new_generation, evaluate_p, evaluate_new_p);
+        std::pair<std::vector<int>, int> evaluate_p = evaluatePopulation(distances, imp_vector, population, true);
+        if(verbose) std::cout << "A nova populacao teve seu melhor individuo avaliado em " << evaluate_p.first[evaluate_p.second] << std::endl << std::endl;
     }
 
+    return best_solution_value;
 }

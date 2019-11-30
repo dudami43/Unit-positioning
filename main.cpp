@@ -17,6 +17,6 @@ int main()
     std::vector<int> solution3;
 
     std::vector<int> solution1 = greedy(10, weight_matrix, imp_vector, "default");
-    std::cout << objectiveFunction(distances, imp_vector, solution1, true) << " ";    
-    std::cout << scatterSearch(30, 10, 0.1, distances, imp_vector) << std::endl;
+    std::cout << "Guloso: " << objectiveFunction(distances, imp_vector, solution1, true) << std::endl;
+    std::cout << genetic_algorithm(distances, imp_vector, 10, 100, 10, 0.1, true) << std::endl;
 }
