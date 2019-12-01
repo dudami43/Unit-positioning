@@ -20,5 +20,5 @@ int main()
 
     std::vector<int> solution1 = greedy(n_units, weight_matrix, imp_vector, "default");
     std::cout << "Guloso: " << objectiveFunction(distances, imp_vector, solution1, true) << std::endl;
-    std::cout << genetic_algorithm(distances, imp_vector, n_units, 150, 150, 0.2, false) << std::endl;
+    std::cout << genetic_algorithm(distances, imp_vector, n_units, 150, 150, 0.2, 0.01, false) << std::endl;
 }

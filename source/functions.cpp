@@ -562,7 +562,7 @@ void mutation(std::vector<std::vector<int>>& population, float chance, int n_pla
     if (verbose) std::cout << "Finalizou a mutacao" << std::endl;
 }
 
-std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents, int n_places, bool verbose)
+std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents, float mutation_chance, int n_places, bool verbose)
 {
     if (verbose) std::cout << "Comecou a reproducao" << std::endl;
 
@@ -579,7 +579,7 @@ std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents
     }
 
     // Mutacao
-    mutation(new_population, 0.01, n_places, verbose);
+    mutation(new_population, mutation_chance, n_places, verbose);
 
     if (verbose) std::cout << "Terminou a reproducao com " << new_population.size() << " individuos" << std::endl;
 
@@ -602,7 +602,7 @@ void replace_pop(std::vector<std::vector<int>>& population, std::vector<std::vec
     }
 }
 
-int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int pop_size, int imax, float size_RCL, bool verbose)
+int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int pop_size, int imax, float size_RCL, float mutation_chance, bool verbose)
 {
     std::vector<std::vector<int>> population;
 
@@ -622,7 +622,7 @@ int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>
     for (int i = 0; i < imax; i++)
     {
         // Generate new population
-        std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p.first, population.size()/2, false), imp_vector.size(), false);
+        std::vector<std::vector<int>> new_generation = reproduction(selection(population, evaluate_p.first, population.size()/2, false), mutation_chance, imp_vector.size(), false);
 
         if(verbose) std::cout << "Aplicou selecao e reproducao" << std::endl;
 
