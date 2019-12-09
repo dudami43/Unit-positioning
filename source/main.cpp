@@ -12,15 +12,19 @@ int main()
     std::vector<int> imp_vector;
 
     int n_units;
-    for(int i = 30; i < 100; i++)
+    for(int i = 20; i < 100; i++)
     {
-        std::string file = "instances/vicosa" + std::to_string(i) + ".txt";
-        std::cout << file << std::endl;
+        std::string file = "instances/vicosa15.txt";
+        //std::cout << file << std::endl;
         read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, file);
-        std::cout << "Li o mapa\n";
+        //std::cout << "Li o mapa\n";
         imp_vector = get_importance(weight_matrix, imp_matrix);
-        std::cout << "Peguei as importancias\n";
-        std::cout << "Resultado scatter search de " << n_units << " unidades: " << scatterSearch(30, n_units, 0.05, distances, imp_vector, 9, 6, 10, false) << std::endl;
+        n_units = i;
+        //std::cout << "Peguei as importancias\n";
+        std::cout << n_units << " unidades: " << std::endl; 
+        std::vector<int> a = greedy (n_units, weight_matrix, imp_vector, "default", 0.06);
+        std::cout << "Greedy: " << objectiveFunction(distances, imp_vector, a, true) << std::endl;
+        std::cout << "Scatter search: " << scatterSearch(30, n_units, 0.05, distances, imp_vector, 9, 6, 10, false) << std::endl;
     }
     
 }

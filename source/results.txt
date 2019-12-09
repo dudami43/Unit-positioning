@@ -1,4 +1,2 @@
-instances/vicosa30.txt
-Li o mapa
-Peguei as importancias
-Resultado scatter search de 30
+20 unidades: 
+Greedy: 4190082
