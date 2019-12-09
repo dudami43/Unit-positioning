@@ -12,13 +12,15 @@ int main()
     std::vector<int> imp_vector;
 
     int n_units;
-
-    read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, "instances/vicosa49.txt");
-    imp_vector = get_importance(weight_matrix, imp_matrix);
-
-    std::vector<int> solution3;
-
-    std::vector<int> solution1 = greedy(n_units, weight_matrix, imp_vector, "default");
-    std::cout << "Guloso: " << objectiveFunction(distances, imp_vector, solution1, true) << std::endl;
-    std::cout << genetic_algorithm(distances, imp_vector, n_units, 150, 150, 0.2, 0.01, false) << std::endl;
+    for(int i = 30; i < 100; i++)
+    {
+        std::string file = "instances/vicosa" + std::to_string(i) + ".txt";
+        std::cout << file << std::endl;
+        read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, file);
+        std::cout << "Li o mapa\n";
+        imp_vector = get_importance(weight_matrix, imp_matrix);
+        std::cout << "Peguei as importancias\n";
+        std::cout << "Resultado scatter search de " << n_units << " unidades: " << scatterSearch(30, n_units, 0.05, distances, imp_vector, 9, 6, 10, false) << std::endl;
+    }
+    
 }
