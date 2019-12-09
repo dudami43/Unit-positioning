@@ -35,7 +35,7 @@ int closestUnit(int point, std::vector<std::vector<int>>& weight_matrix, std::ve
     {
         if(solution[i] != point)
         {
-            if(verbose) std::cout << i << " " << weight_matrix[solution[i]][point] << " " << minDist << std::endl;
+            if(verbose) std::cout << point << " ate " << solution[i] << " " << weight_matrix[solution[i]][point] << std::endl; //<< " " << minDist << std::endl;
             if(weight_matrix[solution[i]][point] < minDist)
             {
                 minDist = weight_matrix[solution[i]][point];
@@ -52,7 +52,7 @@ int objectiveFunction(std::vector<std::vector<int>>& distances, std::vector<int>
     int totalValue = 0;
     for(int i = 0; i < distances.size(); i++)
     {
-        int closest_unit = closestUnit(i, distances, solution);
+        int closest_unit = closestUnit(i, distances, solution, false);
         if(verbose) std::cout << "Unidade mais próxima do vertice " << i << " é " << closest_unit << std::endl;
         if(use_importance)
         {
@@ -64,7 +64,7 @@ int objectiveFunction(std::vector<std::vector<int>>& distances, std::vector<int>
         }
         else
         {
-            totalValue += distances[i][closest_unit];
+            totalValue += distances[i][solution[closest_unit]];
         }        
     }
     return totalValue;
@@ -113,6 +113,7 @@ void greedySolution(int numberUnits, std::vector<std::vector<int>>& weight_matri
 
 std::vector<int> greedy(int n_units, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::string method, float size_RCL, bool verbose)
 {
+    //std::cout << n_units << std::endl;
     if(method.compare("default") == 0)
     {
         std::vector<int> solution;
@@ -165,7 +166,8 @@ std::vector<int> greedy(int n_units, std::vector<std::vector<int>>& weight_matri
             // atraves do numero de locais adjacentes
             std::sort(sorted_imp_idx.begin(), sorted_imp_idx.end(),
                     [&](int i, int j){return count_non_zero(weight_matrix, i) > count_non_zero(weight_matrix, j);});
-        }else
+        }
+        else
         {
             throw "Metodo invalido para o guloso.";
         }
@@ -336,13 +338,13 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
     std::vector<std::vector<int>> population;
     //Diversification generation method
     initialPopulation(popSize, n_units, size_RCL, weight_matrix, imp_vector, population);
-    
+    if(verbose) std::cout << "Created initial pop\n";
     //Improvement method
     for(int i = 0; i < popSize; i++)
     {
-        localSearch(weight_matrix, imp_vector, population[i], n_units, false);
+        localSearch(weight_matrix, imp_vector, population[i], n_units, verbose);
     }
-
+    if(verbose) std::cout << "1st Local Search Done\n";
     std::vector<std::vector<int>> refset;
     //Reference set update method
     goodRefSet(population, refset, weight_matrix, imp_vector, gRS);
