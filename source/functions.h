@@ -24,3 +24,7 @@ void mutation(std::vector<std::vector<int>>& population, float chance, int n_pla
 std::vector<std::vector<int>> reproduction(std::vector<std::vector<int>> parents, float mutation_chance, int n_places, bool verbose = false);
 void replace_pop(std::vector<std::vector<int>>& population, std::vector<std::vector<int>>& new_generation, bool verbose = false);
 int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int pop_size = 100, int imax = 10, float size_RCL = 0.1, float mutation_chance = 0.01, bool verbose = false);
+
+// ILS
+void disturbe(std::vector<int> solution, double disturbe_size, int n_units, int n_places, bool verbose = false);
+int ILS(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int imax, double disturbe_size, double accept_chance, bool verbose = false);
