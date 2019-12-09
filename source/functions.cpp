@@ -690,7 +690,7 @@ int ILS(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, 
     if(verbose) std::cout << "valor de aceitacao calculado" << std::endl;
     
     std::vector<int> solution = greedy(n_units, distances, imp_vector, "default");
-    int value = objectiveFunction(distances, imp_vector, solution, verbose);
+    int value = objectiveFunction(distances, imp_vector, solution, true);
     
     std::vector<int> best_solution(solution);
     int best_value = value;
@@ -701,12 +701,12 @@ int ILS(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, 
     {
         // Perturbacao
         std::vector<int> disturbe_solution(solution);
-        disturbe(disturbe_solution, disturbe_size, n_units, imp_vector.size(), true);
+        disturbe(disturbe_solution, disturbe_size, n_units, imp_vector.size(), verbose);
 
         if(verbose) std::cout << "Solucao " << it << " perturbada" << std::endl;
 
         // Busca local na perturbacao
-        localSearch(distances, imp_vector, disturbe_solution, n_units, false);
+        localSearch(distances, imp_vector, disturbe_solution, n_units, verbose);
         int disturb_value = objectiveFunction(distances, imp_vector, disturbe_solution, true);
 
         if(verbose) std::cout << "Busca local da perturbacao " << it << " concluida com valor: " << value << std::endl;
