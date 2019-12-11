@@ -8,11 +8,8 @@ int main(int argc, char **argv)
     double rng_seed;
 
     //Scatter Search
-    int pop_size;
-    float size_RCL;
-    int gRS;
-    int rRS;
-    int imax;
+    int pop_size, imax;
+    float size_RCL, mut_chance;
 
     for(int i = 2; i < argc; i += 2) {
         if(strcmp(argv[i], "--seed") == 0) {
@@ -21,17 +18,14 @@ int main(int argc, char **argv)
         else if(strcmp(argv[i], "--POP_SIZE") == 0) {
             sscanf(argv[i+1],"%d", &pop_size);
         }
+        else if(strcmp(argv[i], "--IMAX") == 0) {
+            sscanf(argv[i+1],"%d", &imax);
+        }
         else if(strcmp(argv[i], "--SIZE_RCL") == 0) {
             sscanf(argv[i+1],"%lf", &size_RCL);
         }
-        else if(strcmp(argv[i], "--GRS") == 0) {
-            sscanf(argv[i+1],"%d", &gRS);
-        }
-        else if(strcmp(argv[i], "--RRS") == 0) {
-            sscanf(argv[i+1],"%d", &rRS);
-        }
-        else if(strcmp(argv[i], "--IMAX") == 0) {
-            sscanf(argv[i+1],"%d", &imax);
+        else if(strcmp(argv[i], "--MUT_CHANCE") == 0) {
+            sscanf(argv[i+1],"%d", &mut_chance);
         }
     }
 
@@ -47,6 +41,5 @@ int main(int argc, char **argv)
 
     read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, argv[1]);
     imp_vector = get_importance(weight_matrix, imp_matrix);
-
-    std::cout << scatterSearch(pop_size, n_units, size_RCL, distances, imp_vector, gRS, rRS, imax, false) << std::endl;
+    std::cout << genetic_algorithm(distances, imp_vector, n_units, pop_size, imax, size_RCL, mut_chance, false) << std::endl;
 }

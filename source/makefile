@@ -1,5 +1,5 @@
 CC= g++
-OPTIONS= -c -O2 -m64 -march=native -std=c++11 -w
+OPTIONS= -c -O2 -m64 -march=native -std=c++11 -w -static-libstdc++
 
 all: Main
 Main: Main.o Functions.o Parser.o 

@@ -333,11 +333,12 @@ std::vector<int> combineSolutions(std::vector<int>& sol1, std::vector<int>& sol2
     return aux;
 }
 
-int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int gRS, int rRS, int imax, bool verbose)
+int scatterSearch(int popSize, int n_subsets, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int gRS, int rRS, int imax, bool verbose)
 {
     std::vector<std::vector<int>> population;
     //Diversification generation method
     initialPopulation(popSize, n_units, size_RCL, weight_matrix, imp_vector, population);
+    population.push_back(greedy (n_units, weight_matrix, imp_vector, "default"));
     if(verbose) std::cout << "Created initial pop\n";
     //Improvement method
     for(int i = 0; i < popSize; i++)
@@ -361,7 +362,7 @@ int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vec
         if(verbose) std::cout << "Generated subsets\n";
         //Solution combination method
         int is = 0;
-        while(!subsets.empty() && is < 10)
+        while(!subsets.empty() && is < n_subsets)
         {
             std::pair<std::vector<int>, std::vector<int>> subset = subsets.back();
             subsets.pop_back();

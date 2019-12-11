@@ -1,2 +1,176 @@
 20 unidades: 
-Greedy: 4190082
+Greedy: 3000721
+Scatter search: 2870757
+21 unidades: 
+Greedy: 2947171
+Scatter search: 2599701
+22 unidades: 
+Greedy: 2929679
+Scatter search: 2560236
+23 unidades: 
+Greedy: 2806670
+Scatter search: 2806670
+24 unidades: 
+Greedy: 2792640
+Scatter search: 2792640
+25 unidades: 
+Greedy: 2761579
+Scatter search: 2298470
+26 unidades: 
+Greedy: 2682575
+Scatter search: 2489007
+27 unidades: 
+Greedy: 2612449
+Scatter search: 2293657
+28 unidades: 
+Greedy: 2540821
+Scatter search: 2273489
+29 unidades: 
+Greedy: 2493091
+Scatter search: 2493091
+30 unidades: 
+Greedy: 2453703
+Scatter search: 2194863
+31 unidades: 
+Greedy: 2453196
+Scatter search: 2207265
+32 unidades: 
+Greedy: 2446318
+Scatter search: 2446318
+33 unidades: 
+Greedy: 2431730
+Scatter search: 2230939
+34 unidades: 
+Greedy: 2386703
+Scatter search: 2002574
+35 unidades: 
+Greedy: 2375342
+Scatter search: 2153926
+36 unidades: 
+Greedy: 2349895
+Scatter search: 2149104
+37 unidades: 
+Greedy: 2346942
+Scatter search: 2254740
+38 unidades: 
+Greedy: 2329736
+Scatter search: 2220018
+39 unidades: 
+Greedy: 2293687
+Scatter search: 2183969
+40 unidades: 
+Greedy: 2286554
+Scatter search: 1979668
+41 unidades: 
+Greedy: 2259468
+Scatter search: 2151600
+42 unidades: 
+Greedy: 2246692
+Scatter search: 1938699
+43 unidades: 
+Greedy: 2150074
+Scatter search: 1850738
+44 unidades: 
+Greedy: 2107820
+Scatter search: 1901255
+45 unidades: 
+Greedy: 2085697
+Scatter search: 1871411
+46 unidades: 
+Greedy: 2084079
+Scatter search: 1814582
+47 unidades: 
+Greedy: 2082330
+Scatter search: 1808047
+48 unidades: 
+Greedy: 2008627
+Scatter search: 1897173
+49 unidades: 
+Greedy: 2000631
+Scatter search: 1847845
+50 unidades: 
+Greedy: 1987209
+Scatter search: 1843727
+51 unidades: 
+Greedy: 1978997
+Scatter search: 1921617
+52 unidades: 
+Greedy: 1947219
+Scatter search: 1863502
+53 unidades: 
+Greedy: 1945345
+Scatter search: 1922479
+54 unidades: 
+Greedy: 1933409
+Scatter search: 1933409
+55 unidades: 
+Greedy: 1897148
+Scatter search: 1728296
+56 unidades: 
+Greedy: 1833094
+Scatter search: 1784045
+57 unidades: 
+Greedy: 1818212
+Scatter search: 1818212
+58 unidades: 
+Greedy: 1809800
+Scatter search: 1627037
+59 unidades: 
+Greedy: 1765203
+Scatter search: 1683674
+60 unidades: 
+Greedy: 1695655
+Scatter search: 1646606
+61 unidades: 
+Greedy: 1657539
+Scatter search: 1564976
+62 unidades: 
+Greedy: 1644028
+Scatter search: 1594979
+63 unidades: 
+Greedy: 1642780
+Scatter search: 1538478
+64 unidades: 
+Greedy: 1637459
+Scatter search: 1563941
+65 unidades: 
+Greedy: 1627628
+Scatter search: 1555293
+66 unidades: 
+Greedy: 1595188
+Scatter search: 1494837
+67 unidades: 
+Greedy: 1584206
+Scatter search: 1530348
+68 unidades: 
+Greedy: 1583666
+Scatter search: 1529808
+69 unidades: 
+Greedy: 1576507
+Scatter search: 1576507
+70 unidades: 
+Greedy: 1563365
+Scatter search: 1563365
+71 unidades: 
+Greedy: 1553833
+Scatter search: 1381985
+72 unidades: 
+Greedy: 1548086
+Scatter search: 1471449
+73 unidades: 
+Greedy: 1546336
+Scatter search: 1491209
+74 unidades: 
+Greedy: 1546147
+Scatter search: 1477770
+75 unidades: 
+Greedy: 1541939
+Scatter search: 1465302
+76 unidades: 
+Greedy: 1536049
+Scatter search: 1431634
+77 unidades: 
+Greedy: 1527597
+Scatter search: 1471741
+78 unidades: 
+Greedy: 1505299

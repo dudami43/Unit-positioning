@@ -14,7 +14,7 @@ void changePositions(std::vector<int>& solution, int unit, int position);
 void localSearch(std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<int>& solution, int numberUnits, bool verbose = false);
 
 void initialPopulation(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, std::vector<std::vector<int>>& population);
-int scatterSearch(int popSize, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int gRS = 5, int rRS = 5, int imax = 10, bool verbose = false);
+int scatterSearch(int popSize, int n_subsets, int n_units, float size_RCL, std::vector<std::vector<int>>& weight_matrix, std::vector<int>& imp_vector, int gRS = 5, int rRS = 5, int imax = 10, bool verbose = false);
 
 // GA
 std::pair<std::vector<int>, int> evaluatePopulation(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, std::vector<std::vector<int>> population, bool verbose = false);
