@@ -22,10 +22,10 @@ int main()
         n_units = i;
         //std::cout << "Peguei as importancias\n";
         std::cout << n_units << " unidades: " << std::endl; 
-        //std::cout << genetic_algorithm(distances, imp_vector, n_units, 10, 10, 0.05, 0.5, false) << std::endl;
         std::vector<int> a = greedy (n_units, distances, imp_vector, "default", 0.06);
         std::cout << "Greedy: " << objectiveFunction(distances, imp_vector, a, true) << std::endl;
-        //std::cout << "Scatter search: " << scatterSearch(30, 10, n_units, 0.05, distances, imp_vector, 9, 6, 10, false) << std::endl;
+        //std::cout << "Scatter search: " << scatterSearch(30, n_units, 0.05, distances, imp_vector, 9, 6, 10, false) << std::endl;
+        std::cout <<"ILS: " << ILS(distances, imp_vector, n_units, 10, 0.1, 0.2, false) << std::endl;
     }
     
 }

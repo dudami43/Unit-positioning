@@ -651,3 +651,88 @@ int genetic_algorithm(std::vector<std::vector<int>>& distances, std::vector<int>
 
     return best_solution_value;
 }
+
+// ILS
+void disturbe(std::vector<int> solution, double disturbe_size, int n_units, int n_places, bool verbose)
+{
+    int n_disturbe_units = ceil(n_units*disturbe_size);
+
+    if(verbose) std::cout << "Numero de unidades que serao perturbadas calculado: " << n_disturbe_units << std::endl;
+
+    std::vector<int> choosed_units;
+    for (int it = 0; it < n_disturbe_units; it++)
+    {
+        int choosed_unit = rand() % n_disturbe_units;
+        while(std::find(choosed_units.begin(), choosed_units.end(), choosed_unit) != choosed_units.end()) choosed_unit = rand() % n_disturbe_units;
+
+        if(verbose) std::cout << "Unidade a ser perturbada escolhida" << std::endl;
+
+        int new_position = rand() % n_places;
+        while(std::find(solution.begin(), solution.end(), new_position) != solution.end()) new_position = rand() % n_places;
+
+        if(verbose) std::cout << "Nova posicao da unidade escolhida" << std::endl;
+        
+        solution[choosed_unit] = new_position;
+        choosed_units.push_back(choosed_unit);
+        
+        if(verbose) std::cout << "Unidade reposicionada de acordo com a perturbacao" << std::endl;
+    }
+}
+
+int ILS(std::vector<std::vector<int>>& distances, std::vector<int>& imp_vector, int n_units, int imax, double disturbe_size, double accept_chance, bool verbose)
+{
+    int accept_int = 1;
+    while(accept_chance < 1)
+    {
+        accept_int *= 10;
+        accept_chance *= 10;
+    }
+
+    if(verbose) std::cout << "valor de aceitacao calculado" << std::endl;
+    
+    std::vector<int> solution = greedy(n_units, distances, imp_vector, "default");
+    int value = objectiveFunction(distances, imp_vector, solution, true);
+    
+    std::vector<int> best_solution(solution);
+    int best_value = value;
+    
+    if(verbose) std::cout << "Solucao inicial adquirida" << std::endl;
+
+    for (int it = 0; it < imax; it++)
+    {
+        // Perturbacao
+        std::vector<int> disturbe_solution(solution);
+        disturbe(disturbe_solution, disturbe_size, n_units, imp_vector.size(), verbose);
+
+        if(verbose) std::cout << "Solucao " << it << " perturbada" << std::endl;
+
+        // Busca local na perturbacao
+        localSearch(distances, imp_vector, disturbe_solution, n_units, verbose);
+        int disturb_value = objectiveFunction(distances, imp_vector, disturbe_solution, true);
+
+        if(verbose) std::cout << "Busca local da perturbacao " << it << " concluida com valor: " << value << std::endl;
+        
+        if(disturb_value < best_value)
+        {
+            best_solution = disturbe_solution;
+            best_value = disturb_value;
+
+            solution = disturbe_solution;
+            value = disturb_value;
+
+            if(verbose) std::cout << "Solucao perturbada eh a melhor ate o momento" << std::endl;
+        }
+        else
+        {
+            int get_worst_chance = ceil(rand() % 100);
+            if(disturb_value < value || get_worst_chance < accept_int)
+            {
+                if(verbose) std::cout << "Solucao perturbada aceita" << std::endl;
+                solution = disturbe_solution;
+                value = disturb_value;
+            }
+        }
+    }
+
+    return best_value;
+}
