@@ -14,6 +14,7 @@ int main(int argc, char **argv)
     int rRS;
     int imax;
     int n_subsets;
+    float dist, acc;
 
     for(int i = 2; i < argc; i += 2) {
         if(strcmp(argv[i], "--seed") == 0) {
@@ -37,6 +38,12 @@ int main(int argc, char **argv)
         else if(strcmp(argv[i], "--NSUBSETS") == 0) {
             sscanf(argv[i+1],"%d", &n_subsets);
         }
+        else if(strcmp(argv[i], "--DIST") == 0) {
+            sscanf(argv[i+1],"%lf", &dist);
+        }
+        else if(strcmp(argv[i], "--ACC") == 0) {
+            sscanf(argv[i+1],"%lf", &acc);
+        }
     }
 
     srand (rng_seed);
@@ -51,6 +58,6 @@ int main(int argc, char **argv)
 
     read_map(weight_matrix, imp_matrix, flags_matrix, distances, n_units, argv[1]);
     imp_vector = get_importance(weight_matrix, imp_matrix);
-
-    std::cout << scatterSearch(pop_size, n_subsets, n_units, size_RCL, distances, imp_vector, gRS, rRS, imax, false) << std::endl;
+    std::cout << ILS(distances, imp_vector, n_units, 10, dist, acc) << std::endl;
+    //std::cout << scatterSearch(pop_size, n_subsets, n_units, size_RCL, distances, imp_vector, gRS, rRS, imax, false) << std::endl;
 }

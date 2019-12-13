@@ -1,0 +1,4728 @@
+20 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+2999157 2947148
+Coloquei a unidade 0 em 1
+2947148 2933456
+Coloquei a unidade 0 em 2
+2933456 2930052
+Coloquei a unidade 0 em 9
+2930052 2924114
+Coloquei a unidade 0 em 12
+2924114 2909212
+Coloquei a unidade 0 em 13
+2909212 2887705
+Coloquei a unidade 0 em 15
+2887705 2869420
+Coloquei a unidade 0 em 26
+2869420 2868436
+Coloquei a unidade 0 em 28
+2868436 2867749
+Coloquei a unidade 0 em 34
+2867749 2865736
+Busca local da perturbacao 0 concluida com valor: 2999157
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 63
+2865736 2862093
+Coloquei a unidade 1 em 7
+2862093 2855415
+Coloquei a unidade 1 em 8
+2855415 2829633
+Coloquei a unidade 1 em 52
+2829633 2826657
+Coloquei a unidade 1 em 55
+2826657 2826453
+Coloquei a unidade 1 em 56
+2826453 2821356
+Coloquei a unidade 1 em 57
+2821356 2818480
+Coloquei a unidade 1 em 62
+2818480 2809517
+Coloquei a unidade 1 em 202
+2809517 2802679
+Coloquei a unidade 1 em 203
+2802679 2789386
+Busca local da perturbacao 1 concluida com valor: 2865736
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 502
+2789386 2777749
+Coloquei a unidade 1 em 506
+2777749 2760987
+Coloquei a unidade 1 em 507
+2760987 2750090
+Coloquei a unidade 1 em 508
+2750090 2747172
+Coloquei a unidade 1 em 509
+2747172 2739661
+Coloquei a unidade 1 em 536
+2739661 2735638
+Coloquei a unidade 2 em 56
+2735638 2734036
+Coloquei a unidade 2 em 57
+2734036 2726168
+Coloquei a unidade 2 em 62
+2726168 2697535
+Coloquei a unidade 2 em 483
+2697535 2688947
+Busca local da perturbacao 2 concluida com valor: 2789386
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 2 em 484
+2688947 2680286
+Coloquei a unidade 2 em 485
+2680286 2671761
+Coloquei a unidade 2 em 488
+2671761 2661081
+Coloquei a unidade 2 em 500
+2661081 2659530
+Coloquei a unidade 3 em 0
+2659530 2649228
+Coloquei a unidade 0 em 117
+2649228 2646332
+Coloquei a unidade 0 em 118
+2646332 2646281
+Coloquei a unidade 0 em 146
+2646281 2645166
+Coloquei a unidade 0 em 149
+2645166 2643193
+Coloquei a unidade 0 em 754
+2643193 2642119
+Busca local da perturbacao 3 concluida com valor: 2688947
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 0 em 755
+2642119 2640355
+Coloquei a unidade 0 em 776
+2640355 2623757
+Coloquei a unidade 0 em 1063
+2623757 2620418
+Coloquei a unidade 0 em 1064
+2620418 2619329
+Coloquei a unidade 0 em 1074
+2619329 2614150
+Coloquei a unidade 0 em 1075
+2614150 2607151
+Coloquei a unidade 3 em 1
+2607151 2584446
+Coloquei a unidade 3 em 2
+2584446 2574594
+Coloquei a unidade 3 em 12
+2574594 2563486
+Coloquei a unidade 3 em 13
+2563486 2536573
+Busca local da perturbacao 4 concluida com valor: 2642119
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 3 em 15
+2536573 2513915
+Coloquei a unidade 3 em 25
+2513915 2513204
+Coloquei a unidade 3 em 26
+2513204 2511159
+Coloquei a unidade 3 em 27
+2511159 2510181
+Coloquei a unidade 3 em 34
+2510181 2507710
+Coloquei a unidade 3 em 63
+2507710 2501633
+Coloquei a unidade 4 em 13
+2501633 2491562
+Coloquei a unidade 0 em 1063
+2491562 2479038
+Coloquei a unidade 0 em 1305
+2479038 2475522
+Coloquei a unidade 3 em 102
+2475522 2461098
+Busca local da perturbacao 5 concluida com valor: 2536573
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 3 em 103
+2461098 2460943
+Coloquei a unidade 3 em 117
+2460943 2459264
+Coloquei a unidade 3 em 344
+2459264 2449125
+Coloquei a unidade 3 em 345
+2449125 2440035
+Coloquei a unidade 3 em 346
+2440035 2437133
+Coloquei a unidade 3 em 753
+2437133 2437102
+Coloquei a unidade 3 em 754
+2437102 2426899
+Coloquei a unidade 3 em 755
+2426899 2425135
+Coloquei a unidade 3 em 776
+2425135 2408537
+Coloquei a unidade 3 em 1174
+2408537 2397135
+Busca local da perturbacao 6 concluida com valor: 2461098
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 1794
+2397135 2396145
+Coloquei a unidade 4 em 15
+2396145 2373487
+Coloquei a unidade 4 em 25
+2373487 2372776
+Coloquei a unidade 4 em 26
+2372776 2370731
+Coloquei a unidade 4 em 27
+2370731 2369753
+Coloquei a unidade 4 em 34
+2369753 2367282
+Coloquei a unidade 4 em 63
+2367282 2361205
+Coloquei a unidade 5 em 0
+2361205 2350320
+Coloquei a unidade 4 em 117
+2350320 2347424
+Coloquei a unidade 4 em 118
+2347424 2347373
+Busca local da perturbacao 7 concluida com valor: 2397135
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 4 em 146
+2347373 2346258
+Coloquei a unidade 4 em 149
+2346258 2344285
+Coloquei a unidade 4 em 754
+2344285 2343211
+Coloquei a unidade 4 em 755
+2343211 2341447
+Coloquei a unidade 4 em 776
+2341447 2324849
+Coloquei a unidade 5 em 1
+2324849 2302144
+Coloquei a unidade 5 em 2
+2302144 2292292
+Coloquei a unidade 5 em 12
+2292292 2281184
+Coloquei a unidade 5 em 13
+2281184 2254271
+Coloquei a unidade 5 em 15
+2254271 2231613
+Busca local da perturbacao 8 concluida com valor: 2347373
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 2
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 5 em 25
+2231613 2230902
+Coloquei a unidade 5 em 26
+2230902 2228857
+Coloquei a unidade 5 em 27
+2228857 2227879
+Coloquei a unidade 5 em 34
+2227879 2225408
+Coloquei a unidade 5 em 63
+2225408 2219331
+Coloquei a unidade 6 em 0
+2219331 2202944
+Coloquei a unidade 5 em 117
+2202944 2200048
+Coloquei a unidade 5 em 118
+2200048 2199997
+Coloquei a unidade 5 em 146
+2199997 2198882
+Coloquei a unidade 5 em 149
+2198882 2196909
+Busca local da perturbacao 9 concluida com valor: 2231613
+Solucao perturbada eh a melhor ate o momento
+ILS: 2196909
+25 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+2759703 2759443
+Coloquei a unidade 0 em 1
+2759443 2754699
+Coloquei a unidade 0 em 8
+2754699 2736858
+Coloquei a unidade 0 em 15
+2736858 2732973
+Coloquei a unidade 0 em 28
+2732973 2730759
+Coloquei a unidade 0 em 29
+2730759 2725898
+Coloquei a unidade 0 em 62
+2725898 2717602
+Coloquei a unidade 0 em 344
+2717602 2713487
+Coloquei a unidade 0 em 345
+2713487 2704397
+Coloquei a unidade 0 em 346
+2704397 2701495
+Busca local da perturbacao 0 concluida com valor: 2759703
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 506
+2701495 2699299
+Coloquei a unidade 0 em 507
+2699299 2686962
+Coloquei a unidade 0 em 508
+2686962 2683669
+Coloquei a unidade 0 em 509
+2683669 2676404
+Coloquei a unidade 0 em 536
+2676404 2672617
+Coloquei a unidade 1 em 0
+2672617 2644342
+Coloquei a unidade 0 em 1063
+2644342 2642277
+Coloquei a unidade 0 em 1064
+2642277 2640196
+Coloquei a unidade 0 em 1075
+2640196 2639485
+Coloquei a unidade 1 em 1
+2639485 2634741
+Busca local da perturbacao 1 concluida com valor: 2701495
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 8
+2634741 2616900
+Coloquei a unidade 1 em 15
+2616900 2613015
+Coloquei a unidade 1 em 28
+2613015 2610801
+Coloquei a unidade 1 em 29
+2610801 2605940
+Coloquei a unidade 1 em 62
+2605940 2597644
+Coloquei a unidade 1 em 344
+2597644 2593529
+Coloquei a unidade 1 em 345
+2593529 2584439
+Coloquei a unidade 1 em 346
+2584439 2581537
+Coloquei a unidade 1 em 506
+2581537 2579341
+Coloquei a unidade 1 em 507
+2579341 2567004
+Busca local da perturbacao 2 concluida com valor: 2634741
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 508
+2567004 2563711
+Coloquei a unidade 1 em 509
+2563711 2556446
+Coloquei a unidade 1 em 536
+2556446 2552659
+Coloquei a unidade 2 em 8
+2552659 2550658
+Coloquei a unidade 2 em 56
+2550658 2550270
+Coloquei a unidade 2 em 57
+2550270 2542278
+Coloquei a unidade 2 em 62
+2542278 2512980
+Coloquei a unidade 2 em 483
+2512980 2505035
+Coloquei a unidade 2 em 484
+2505035 2496532
+Coloquei a unidade 2 em 485
+2496532 2488092
+Busca local da perturbacao 3 concluida com valor: 2567004
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 2 em 488
+2488092 2477412
+Coloquei a unidade 2 em 500
+2477412 2475861
+Coloquei a unidade 3 em 0
+2475861 2432235
+Coloquei a unidade 3 em 1
+2432235 2421167
+Coloquei a unidade 3 em 12
+2421167 2413385
+Coloquei a unidade 3 em 13
+2413385 2400427
+Coloquei a unidade 3 em 15
+2400427 2392558
+Coloquei a unidade 3 em 28
+2392558 2389211
+Coloquei a unidade 3 em 29
+2389211 2384489
+Coloquei a unidade 3 em 314
+2384489 2380662
+Busca local da perturbacao 4 concluida com valor: 2488092
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 3 em 344
+2380662 2368101
+Coloquei a unidade 3 em 345
+2368101 2359011
+Coloquei a unidade 3 em 346
+2359011 2356109
+Coloquei a unidade 3 em 753
+2356109 2356078
+Coloquei a unidade 3 em 754
+2356078 2345875
+Coloquei a unidade 3 em 755
+2345875 2344111
+Coloquei a unidade 3 em 776
+2344111 2327513
+Coloquei a unidade 4 em 0
+2327513 2320239
+Coloquei a unidade 0 em 1061
+2320239 2317488
+Coloquei a unidade 0 em 1062
+2317488 2316203
+Busca local da perturbacao 5 concluida com valor: 2380662
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 0 em 1063
+2316203 2297380
+Coloquei a unidade 0 em 1305
+2297380 2293259
+Coloquei a unidade 4 em 1
+2293259 2282191
+Coloquei a unidade 4 em 12
+2282191 2274409
+Coloquei a unidade 4 em 13
+2274409 2261451
+Coloquei a unidade 4 em 15
+2261451 2253582
+Coloquei a unidade 4 em 28
+2253582 2250235
+Coloquei a unidade 4 em 29
+2250235 2245513
+Coloquei a unidade 4 em 314
+2245513 2241686
+Coloquei a unidade 4 em 344
+2241686 2229125
+Busca local da perturbacao 6 concluida com valor: 2316203
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 4 em 345
+2229125 2220035
+Coloquei a unidade 4 em 346
+2220035 2217133
+Coloquei a unidade 4 em 1174
+2217133 2208086
+Coloquei a unidade 5 em 0
+2208086 2170934
+Coloquei a unidade 5 em 1
+2170934 2159866
+Coloquei a unidade 5 em 12
+2159866 2152084
+Coloquei a unidade 5 em 13
+2152084 2139126
+Coloquei a unidade 5 em 15
+2139126 2131257
+Coloquei a unidade 5 em 28
+2131257 2127910
+Coloquei a unidade 5 em 29
+2127910 2123188
+Busca local da perturbacao 7 concluida com valor: 2229125
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 5 em 314
+2123188 2119361
+Coloquei a unidade 5 em 344
+2119361 2106800
+Coloquei a unidade 5 em 345
+2106800 2097710
+Coloquei a unidade 5 em 346
+2097710 2094808
+Coloquei a unidade 5 em 1514
+2094808 2094311
+Coloquei a unidade 6 em 0
+2094311 2051657
+Coloquei a unidade 6 em 1
+2051657 2040589
+Coloquei a unidade 6 em 12
+2040589 2032807
+Coloquei a unidade 6 em 13
+2032807 2019849
+Coloquei a unidade 6 em 15
+2019849 2011980
+Busca local da perturbacao 8 concluida com valor: 2123188
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 6 em 28
+2011980 2008633
+Coloquei a unidade 6 em 29
+2008633 2003911
+Coloquei a unidade 6 em 455
+2003911 2003508
+Coloquei a unidade 7 em 0
+2003508 1969097
+Coloquei a unidade 5 em 345
+1969097 1968002
+Coloquei a unidade 7 em 1
+1968002 1956934
+Coloquei a unidade 7 em 12
+1956934 1949200
+Coloquei a unidade 7 em 13
+1949200 1936242
+Coloquei a unidade 7 em 15
+1936242 1928351
+Coloquei a unidade 7 em 28
+1928351 1924978
+Busca local da perturbacao 9 concluida com valor: 2011980
+Solucao perturbada eh a melhor ate o momento
+ILS: 1924978
+30 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 12
+2451690 2451208
+Coloquei a unidade 0 em 13
+2451208 2438180
+Coloquei a unidade 0 em 15
+2438180 2430256
+Coloquei a unidade 0 em 28
+2430256 2426828
+Coloquei a unidade 0 em 29
+2426828 2422082
+Coloquei a unidade 0 em 203
+2422082 2418405
+Coloquei a unidade 0 em 314
+2418405 2418035
+Coloquei a unidade 0 em 344
+2418035 2405474
+Coloquei a unidade 0 em 345
+2405474 2396384
+Coloquei a unidade 0 em 346
+2396384 2393482
+Busca local da perturbacao 0 concluida com valor: 2451690
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 506
+2393482 2391286
+Coloquei a unidade 0 em 507
+2391286 2378949
+Coloquei a unidade 0 em 508
+2378949 2375656
+Coloquei a unidade 0 em 509
+2375656 2368391
+Coloquei a unidade 0 em 536
+2368391 2364604
+Coloquei a unidade 1 em 0
+2364604 2354939
+Coloquei a unidade 0 em 1063
+2354939 2353014
+Coloquei a unidade 0 em 1064
+2353014 2350793
+Coloquei a unidade 0 em 1075
+2350793 2350082
+Coloquei a unidade 1 em 1
+2350082 2338917
+Busca local da perturbacao 1 concluida com valor: 2393482
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 12
+2338917 2331250
+Coloquei a unidade 1 em 13
+2331250 2318222
+Coloquei a unidade 1 em 15
+2318222 2310298
+Coloquei a unidade 1 em 28
+2310298 2306870
+Coloquei a unidade 1 em 29
+2306870 2302124
+Coloquei a unidade 1 em 203
+2302124 2298447
+Coloquei a unidade 1 em 314
+2298447 2298077
+Coloquei a unidade 1 em 344
+2298077 2285516
+Coloquei a unidade 1 em 345
+2285516 2276426
+Coloquei a unidade 1 em 346
+2276426 2273524
+Busca local da perturbacao 2 concluida com valor: 2338917
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 506
+2273524 2271328
+Coloquei a unidade 1 em 507
+2271328 2258991
+Coloquei a unidade 1 em 508
+2258991 2255698
+Coloquei a unidade 1 em 509
+2255698 2248433
+Coloquei a unidade 1 em 536
+2248433 2244646
+Coloquei a unidade 2 em 0
+2244646 2231496
+Coloquei a unidade 2 em 1
+2231496 2220331
+Coloquei a unidade 2 em 12
+2220331 2212664
+Coloquei a unidade 2 em 13
+2212664 2199636
+Coloquei a unidade 2 em 15
+2199636 2191712
+Busca local da perturbacao 3 concluida com valor: 2273524
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 2 em 28
+2191712 2188284
+Coloquei a unidade 2 em 29
+2188284 2183538
+Coloquei a unidade 2 em 314
+2183538 2179491
+Coloquei a unidade 2 em 344
+2179491 2166930
+Coloquei a unidade 2 em 345
+2166930 2157840
+Coloquei a unidade 2 em 346
+2157840 2154938
+Coloquei a unidade 2 em 1514
+2154938 2154441
+Coloquei a unidade 3 em 0
+2154441 2111247
+Coloquei a unidade 3 em 1
+2111247 2100082
+Coloquei a unidade 3 em 12
+2100082 2092415
+Busca local da perturbacao 4 concluida com valor: 2191712
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 3 em 13
+2092415 2079387
+Coloquei a unidade 3 em 15
+2079387 2071463
+Coloquei a unidade 3 em 28
+2071463 2068035
+Coloquei a unidade 3 em 29
+2068035 2063289
+Coloquei a unidade 3 em 455
+2063289 2062714
+Coloquei a unidade 3 em 754
+2062714 2057315
+Coloquei a unidade 3 em 755
+2057315 2056642
+Coloquei a unidade 3 em 776
+2056642 2050654
+Coloquei a unidade 4 em 0
+2050654 2043812
+Coloquei a unidade 0 em 1061
+2043812 2040961
+Busca local da perturbacao 5 concluida com valor: 2092415
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 0 em 1062
+2040961 2039676
+Coloquei a unidade 0 em 1063
+2039676 2020953
+Coloquei a unidade 0 em 1305
+2020953 2016832
+Coloquei a unidade 4 em 1
+2016832 2005667
+Coloquei a unidade 4 em 12
+2005667 1998000
+Coloquei a unidade 4 em 13
+1998000 1984972
+Coloquei a unidade 4 em 15
+1984972 1977048
+Coloquei a unidade 4 em 28
+1977048 1973620
+Coloquei a unidade 4 em 29
+1973620 1968874
+Coloquei a unidade 4 em 455
+1968874 1968299
+Busca local da perturbacao 6 concluida com valor: 2040961
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 5 em 0
+1968299 1931579
+Coloquei a unidade 5 em 1
+1931579 1920414
+Coloquei a unidade 5 em 12
+1920414 1912747
+Coloquei a unidade 5 em 13
+1912747 1899719
+Coloquei a unidade 5 em 15
+1899719 1891795
+Coloquei a unidade 5 em 28
+1891795 1888367
+Coloquei a unidade 5 em 29
+1888367 1883621
+Coloquei a unidade 6 em 0
+1883621 1880344
+Coloquei a unidade 5 em 102
+1880344 1877239
+Coloquei a unidade 5 em 117
+1877239 1875331
+Busca local da perturbacao 7 concluida com valor: 1968299
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 5 em 129
+1875331 1875014
+Coloquei a unidade 5 em 130
+1875014 1872410
+Coloquei a unidade 5 em 216
+1872410 1867914
+Coloquei a unidade 5 em 229
+1867914 1865695
+Coloquei a unidade 5 em 1067
+1865695 1861003
+Coloquei a unidade 0 em 1061
+1861003 1835910
+Coloquei a unidade 5 em 1075
+1835910 1833487
+Coloquei a unidade 0 em 1298
+1833487 1831590
+Coloquei a unidade 0 em 1299
+1831590 1830647
+Coloquei a unidade 6 em 1
+1830647 1819482
+Busca local da perturbacao 8 concluida com valor: 1875331
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 3
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 6 em 12
+1819482 1811815
+Coloquei a unidade 6 em 13
+1811815 1798787
+Coloquei a unidade 6 em 15
+1798787 1790863
+Coloquei a unidade 6 em 28
+1790863 1787435
+Coloquei a unidade 6 em 29
+1787435 1782689
+Coloquei a unidade 7 em 8
+1782689 1773296
+Coloquei a unidade 7 em 9
+1773296 1771544
+Coloquei a unidade 6 em 102
+1771544 1768071
+Coloquei a unidade 6 em 117
+1768071 1767161
+Coloquei a unidade 6 em 130
+1767161 1766059
+Busca local da perturbacao 9 concluida com valor: 1819482
+Solucao perturbada eh a melhor ate o momento
+ILS: 1766059
+35 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+2373257 2332727
+Coloquei a unidade 0 em 1
+2332727 2321562
+Coloquei a unidade 0 em 12
+2321562 2313895
+Coloquei a unidade 0 em 13
+2313895 2300867
+Coloquei a unidade 0 em 15
+2300867 2292943
+Coloquei a unidade 0 em 28
+2292943 2289515
+Coloquei a unidade 0 em 29
+2289515 2284769
+Coloquei a unidade 0 em 203
+2284769 2280884
+Coloquei a unidade 0 em 378
+2280884 2278807
+Coloquei a unidade 0 em 380
+2278807 2277045
+Busca local da perturbacao 0 concluida com valor: 2373257
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 381
+2277045 2274508
+Coloquei a unidade 0 em 383
+2274508 2274425
+Coloquei a unidade 0 em 454
+2274425 2273901
+Coloquei a unidade 0 em 455
+2273901 2269815
+Coloquei a unidade 0 em 502
+2269815 2269256
+Coloquei a unidade 0 em 506
+2269256 2253765
+Coloquei a unidade 0 em 507
+2253765 2241428
+Coloquei a unidade 0 em 508
+2241428 2238135
+Coloquei a unidade 0 em 509
+2238135 2230870
+Coloquei a unidade 0 em 536
+2230870 2227083
+Busca local da perturbacao 1 concluida com valor: 2277045
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 0
+2227083 2217626
+Coloquei a unidade 0 em 1063
+2217626 2215701
+Coloquei a unidade 0 em 1064
+2215701 2213480
+Coloquei a unidade 0 em 1075
+2213480 2212769
+Coloquei a unidade 1 em 1
+2212769 2201604
+Coloquei a unidade 1 em 12
+2201604 2193937
+Coloquei a unidade 1 em 13
+2193937 2180909
+Coloquei a unidade 1 em 15
+2180909 2172985
+Coloquei a unidade 1 em 28
+2172985 2169557
+Coloquei a unidade 1 em 29
+2169557 2164811
+Busca local da perturbacao 2 concluida com valor: 2227083
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 203
+2164811 2160926
+Coloquei a unidade 1 em 378
+2160926 2158849
+Coloquei a unidade 1 em 380
+2158849 2157087
+Coloquei a unidade 1 em 381
+2157087 2154550
+Coloquei a unidade 1 em 383
+2154550 2154467
+Coloquei a unidade 1 em 454
+2154467 2153943
+Coloquei a unidade 1 em 455
+2153943 2149857
+Coloquei a unidade 1 em 502
+2149857 2149298
+Coloquei a unidade 1 em 506
+2149298 2133807
+Coloquei a unidade 1 em 507
+2133807 2121470
+Busca local da perturbacao 3 concluida com valor: 2164811
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 508
+2121470 2118177
+Coloquei a unidade 1 em 509
+2118177 2110912
+Coloquei a unidade 1 em 536
+2110912 2107125
+Coloquei a unidade 2 em 0
+2107125 2094183
+Coloquei a unidade 2 em 1
+2094183 2083018
+Coloquei a unidade 2 em 12
+2083018 2075351
+Coloquei a unidade 2 em 13
+2075351 2062323
+Coloquei a unidade 2 em 15
+2062323 2054399
+Coloquei a unidade 2 em 28
+2054399 2050971
+Coloquei a unidade 2 em 29
+2050971 2046225
+Busca local da perturbacao 4 concluida com valor: 2121470
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 369
+2046225 2046051
+Coloquei a unidade 2 em 370
+2046051 2042496
+Coloquei a unidade 2 em 378
+2042496 2040263
+Coloquei a unidade 2 em 380
+2040263 2038501
+Coloquei a unidade 2 em 381
+2038501 2035964
+Coloquei a unidade 2 em 383
+2035964 2035881
+Coloquei a unidade 3 em 0
+2035881 1992895
+Coloquei a unidade 3 em 1
+1992895 1981730
+Coloquei a unidade 3 em 12
+1981730 1974063
+Coloquei a unidade 3 em 13
+1974063 1961035
+Busca local da perturbacao 5 concluida com valor: 2046225
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 3 em 15
+1961035 1953111
+Coloquei a unidade 3 em 28
+1953111 1949683
+Coloquei a unidade 3 em 29
+1949683 1944937
+Coloquei a unidade 3 em 455
+1944937 1944154
+Coloquei a unidade 4 em 0
+1944154 1937520
+Coloquei a unidade 0 em 1061
+1937520 1934669
+Coloquei a unidade 0 em 1062
+1934669 1933384
+Coloquei a unidade 0 em 1063
+1933384 1914661
+Coloquei a unidade 0 em 1305
+1914661 1910540
+Coloquei a unidade 4 em 1
+1910540 1899375
+Busca local da perturbacao 6 concluida com valor: 1961035
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 4 em 12
+1899375 1891708
+Coloquei a unidade 4 em 13
+1891708 1878680
+Coloquei a unidade 4 em 15
+1878680 1870756
+Coloquei a unidade 4 em 28
+1870756 1867328
+Coloquei a unidade 4 em 29
+1867328 1862582
+Coloquei a unidade 5 em 8
+1862582 1853067
+Coloquei a unidade 5 em 9
+1853067 1851315
+Coloquei a unidade 4 em 129
+1851315 1850287
+Coloquei a unidade 4 em 130
+1850287 1847683
+Coloquei a unidade 4 em 216
+1847683 1843187
+Busca local da perturbacao 7 concluida com valor: 1899375
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 4 em 229
+1843187 1840968
+Coloquei a unidade 4 em 779
+1840968 1839926
+Coloquei a unidade 4 em 780
+1839926 1838381
+Coloquei a unidade 4 em 782
+1838381 1838289
+Coloquei a unidade 4 em 784
+1838289 1835948
+Coloquei a unidade 4 em 785
+1835948 1833418
+Coloquei a unidade 4 em 1074
+1833418 1833308
+Coloquei a unidade 0 em 1061
+1833308 1812405
+Coloquei a unidade 0 em 1298
+1812405 1810783
+Coloquei a unidade 0 em 1299
+1810783 1809840
+Busca local da perturbacao 8 concluida com valor: 1843187
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 4 em 1075
+1809840 1805920
+Coloquei a unidade 5 em 1
+1805920 1803945
+Coloquei a unidade 5 em 12
+1803945 1796278
+Coloquei a unidade 5 em 13
+1796278 1783250
+Coloquei a unidade 5 em 15
+1783250 1775326
+Coloquei a unidade 5 em 28
+1775326 1771898
+Coloquei a unidade 5 em 29
+1771898 1767152
+Coloquei a unidade 6 em 0
+1767152 1763875
+Coloquei a unidade 5 em 117
+1763875 1761384
+Coloquei a unidade 5 em 119
+1761384 1760327
+Busca local da perturbacao 9 concluida com valor: 1809840
+Solucao perturbada eh a melhor ate o momento
+ILS: 1760327
+40 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+2284265 2243450
+Coloquei a unidade 0 em 1
+2243450 2232285
+Coloquei a unidade 0 em 12
+2232285 2224618
+Coloquei a unidade 0 em 13
+2224618 2211590
+Coloquei a unidade 0 em 15
+2211590 2203666
+Coloquei a unidade 0 em 28
+2203666 2200574
+Coloquei a unidade 0 em 29
+2200574 2195828
+Coloquei a unidade 0 em 445
+2195828 2195764
+Coloquei a unidade 0 em 454
+2195764 2184624
+Coloquei a unidade 0 em 455
+2184624 2180538
+Busca local da perturbacao 0 concluida com valor: 2284265
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 507
+2180538 2174047
+Coloquei a unidade 0 em 508
+2174047 2166411
+Coloquei a unidade 0 em 509
+2166411 2159146
+Coloquei a unidade 0 em 536
+2159146 2156365
+Coloquei a unidade 0 em 1063
+2156365 2153317
+Coloquei a unidade 0 em 1064
+2153317 2147958
+Coloquei a unidade 1 em 0
+2147958 2123059
+Coloquei a unidade 0 em 1305
+2123059 2122976
+Coloquei a unidade 1 em 1
+2122976 2111811
+Coloquei a unidade 1 em 12
+2111811 2104144
+Busca local da perturbacao 1 concluida com valor: 2180538
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 13
+2104144 2091116
+Coloquei a unidade 1 em 15
+2091116 2083192
+Coloquei a unidade 1 em 28
+2083192 2080100
+Coloquei a unidade 1 em 29
+2080100 2075354
+Coloquei a unidade 1 em 445
+2075354 2075290
+Coloquei a unidade 1 em 454
+2075290 2064150
+Coloquei a unidade 1 em 455
+2064150 2060064
+Coloquei a unidade 1 em 507
+2060064 2053573
+Coloquei a unidade 1 em 508
+2053573 2045937
+Coloquei a unidade 1 em 509
+2045937 2038672
+Busca local da perturbacao 2 concluida com valor: 2104144
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 536
+2038672 2035891
+Coloquei a unidade 2 em 0
+2035891 2022949
+Coloquei a unidade 2 em 1
+2022949 2011784
+Coloquei a unidade 2 em 12
+2011784 2004117
+Coloquei a unidade 2 em 13
+2004117 1991089
+Coloquei a unidade 2 em 15
+1991089 1983165
+Coloquei a unidade 2 em 28
+1983165 1980073
+Coloquei a unidade 2 em 29
+1980073 1975327
+Coloquei a unidade 2 em 455
+1975327 1974130
+Coloquei a unidade 3 em 0
+1974130 1931222
+Busca local da perturbacao 3 concluida com valor: 2038672
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 3 em 1
+1931222 1920057
+Coloquei a unidade 3 em 12
+1920057 1912390
+Coloquei a unidade 3 em 13
+1912390 1899362
+Coloquei a unidade 3 em 15
+1899362 1891438
+Coloquei a unidade 3 em 28
+1891438 1888346
+Coloquei a unidade 3 em 29
+1888346 1883600
+Coloquei a unidade 4 em 8
+1883600 1876446
+Coloquei a unidade 3 em 381
+1876446 1874538
+Coloquei a unidade 3 em 383
+1874538 1874485
+Coloquei a unidade 4 em 0
+1874485 1852760
+Busca local da perturbacao 4 concluida com valor: 1931222
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 4 em 1
+1852760 1841595
+Coloquei a unidade 4 em 12
+1841595 1833928
+Coloquei a unidade 4 em 13
+1833928 1820900
+Coloquei a unidade 4 em 15
+1820900 1812976
+Coloquei a unidade 4 em 28
+1812976 1809884
+Coloquei a unidade 4 em 29
+1809884 1805138
+Coloquei a unidade 5 em 8
+1805138 1795623
+Coloquei a unidade 5 em 9
+1795623 1793871
+Coloquei a unidade 4 em 216
+1793871 1786441
+Coloquei a unidade 4 em 229
+1786441 1783951
+Busca local da perturbacao 5 concluida com valor: 1852760
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 4 em 1067
+1783951 1778823
+Coloquei a unidade 0 em 1061
+1778823 1753730
+Coloquei a unidade 4 em 1075
+1753730 1752223
+Coloquei a unidade 0 em 1298
+1752223 1750326
+Coloquei a unidade 0 em 1299
+1750326 1749383
+Coloquei a unidade 5 em 1
+1749383 1747408
+Coloquei a unidade 5 em 12
+1747408 1739741
+Coloquei a unidade 5 em 13
+1739741 1726713
+Coloquei a unidade 5 em 15
+1726713 1718789
+Coloquei a unidade 5 em 28
+1718789 1715697
+Busca local da perturbacao 6 concluida com valor: 1783951
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 5 em 29
+1715697 1710951
+Coloquei a unidade 6 em 0
+1710951 1707674
+Coloquei a unidade 5 em 119
+1707674 1706548
+Coloquei a unidade 5 em 129
+1706548 1704652
+Coloquei a unidade 5 em 130
+1704652 1703935
+Coloquei a unidade 5 em 216
+1703935 1695942
+Coloquei a unidade 5 em 229
+1695942 1693452
+Coloquei a unidade 6 em 1
+1693452 1682287
+Coloquei a unidade 6 em 12
+1682287 1674620
+Coloquei a unidade 6 em 13
+1674620 1661592
+Busca local da perturbacao 7 concluida com valor: 1715697
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 6 em 15
+1661592 1653668
+Coloquei a unidade 6 em 28
+1653668 1650576
+Coloquei a unidade 6 em 29
+1650576 1645830
+Coloquei a unidade 7 em 8
+1645830 1635751
+Coloquei a unidade 3 em 381
+1635751 1634507
+Coloquei a unidade 7 em 9
+1634507 1632755
+Coloquei a unidade 6 em 784
+1632755 1630842
+Coloquei a unidade 6 em 785
+1630842 1629719
+Coloquei a unidade 6 em 1174
+1629719 1628199
+Coloquei a unidade 7 em 1
+1628199 1626224
+Busca local da perturbacao 8 concluida com valor: 1661592
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 4
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 7 em 12
+1626224 1618557
+Coloquei a unidade 7 em 13
+1618557 1605529
+Coloquei a unidade 7 em 15
+1605529 1597605
+Coloquei a unidade 7 em 28
+1597605 1594513
+Coloquei a unidade 7 em 29
+1594513 1589767
+Coloquei a unidade 8 em 8
+1589767 1580613
+Coloquei a unidade 8 em 9
+1580613 1578861
+Coloquei a unidade 7 em 784
+1578861 1576948
+Coloquei a unidade 7 em 785
+1576948 1575825
+Coloquei a unidade 8 em 1
+1575825 1573850
+Busca local da perturbacao 9 concluida com valor: 1626224
+Solucao perturbada eh a melhor ate o momento
+ILS: 1573850
+45 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+2083164 2042019
+Coloquei a unidade 0 em 1
+2042019 2030854
+Coloquei a unidade 0 em 12
+2030854 2023187
+Coloquei a unidade 0 em 13
+2023187 2010159
+Coloquei a unidade 0 em 15
+2010159 2002235
+Coloquei a unidade 0 em 28
+2002235 1999143
+Coloquei a unidade 0 em 29
+1999143 1994397
+Coloquei a unidade 0 em 1061
+1994397 1971376
+Coloquei a unidade 0 em 1062
+1971376 1969360
+Coloquei a unidade 0 em 1063
+1969360 1951886
+Busca local da perturbacao 0 concluida com valor: 2083164
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 1064
+1951886 1946527
+Coloquei a unidade 1 em 0
+1946527 1916006
+Coloquei a unidade 1 em 1
+1916006 1904841
+Coloquei a unidade 1 em 12
+1904841 1897174
+Coloquei a unidade 1 em 13
+1897174 1884146
+Coloquei a unidade 1 em 15
+1884146 1876222
+Coloquei a unidade 1 em 28
+1876222 1873130
+Coloquei a unidade 1 em 29
+1873130 1868384
+Coloquei a unidade 2 em 22
+1868384 1865992
+Coloquei a unidade 2 em 45
+1865992 1860786
+Busca local da perturbacao 1 concluida com valor: 1951886
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 2 em 46
+1860786 1856376
+Coloquei a unidade 2 em 102
+1856376 1855890
+Coloquei a unidade 2 em 117
+1855890 1850282
+Coloquei a unidade 2 em 118
+1850282 1849983
+Coloquei a unidade 2 em 119
+1849983 1847505
+Coloquei a unidade 2 em 129
+1847505 1844867
+Coloquei a unidade 2 em 130
+1844867 1842059
+Coloquei a unidade 2 em 216
+1842059 1833198
+Coloquei a unidade 2 em 229
+1833198 1830126
+Coloquei a unidade 2 em 506
+1830126 1826752
+Busca local da perturbacao 2 concluida com valor: 1860786
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 2 em 507
+1826752 1822689
+Coloquei a unidade 2 em 508
+1822689 1822011
+Coloquei a unidade 2 em 509
+1822011 1820442
+Coloquei a unidade 2 em 536
+1820442 1819392
+Coloquei a unidade 3 em 0
+1819392 1814645
+Coloquei a unidade 1 em 119
+1814645 1813519
+Coloquei a unidade 1 em 129
+1813519 1811623
+Coloquei a unidade 1 em 130
+1811623 1810906
+Coloquei a unidade 1 em 216
+1810906 1802913
+Coloquei a unidade 1 em 229
+1802913 1800423
+Busca local da perturbacao 3 concluida com valor: 1826752
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 454
+1800423 1800271
+Coloquei a unidade 1 em 455
+1800271 1798727
+Coloquei a unidade 1 em 1061
+1798727 1798163
+Coloquei a unidade 0 em 1065
+1798163 1793455
+Coloquei a unidade 0 em 1066
+1793455 1782679
+Coloquei a unidade 0 em 1067
+1782679 1782066
+Coloquei a unidade 3 em 1
+1782066 1770901
+Coloquei a unidade 3 em 12
+1770901 1763234
+Coloquei a unidade 3 em 13
+1763234 1750206
+Coloquei a unidade 3 em 15
+1750206 1742282
+Busca local da perturbacao 4 concluida com valor: 1800423
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 3 em 28
+1742282 1739190
+Coloquei a unidade 3 em 29
+1739190 1734444
+Coloquei a unidade 4 em 5
+1734444 1734438
+Coloquei a unidade 4 em 7
+1734438 1733894
+Coloquei a unidade 4 em 8
+1733894 1722694
+Coloquei a unidade 4 em 9
+1722694 1721158
+Coloquei a unidade 3 em 216
+1721158 1713728
+Coloquei a unidade 3 em 229
+1713728 1711238
+Coloquei a unidade 3 em 454
+1711238 1711086
+Coloquei a unidade 3 em 455
+1711086 1709542
+Busca local da perturbacao 5 concluida com valor: 1742282
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 4 em 1
+1709542 1707567
+Coloquei a unidade 4 em 12
+1707567 1699900
+Coloquei a unidade 4 em 13
+1699900 1686872
+Coloquei a unidade 4 em 15
+1686872 1678948
+Coloquei a unidade 4 em 28
+1678948 1675856
+Coloquei a unidade 4 em 29
+1675856 1671110
+Coloquei a unidade 5 em 0
+1671110 1669382
+Coloquei a unidade 4 em 119
+1669382 1668256
+Coloquei a unidade 4 em 129
+1668256 1666360
+Coloquei a unidade 4 em 130
+1666360 1665643
+Busca local da perturbacao 6 concluida com valor: 1709542
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 4 em 216
+1665643 1657650
+Coloquei a unidade 4 em 229
+1657650 1655160
+Coloquei a unidade 5 em 1
+1655160 1643995
+Coloquei a unidade 5 em 12
+1643995 1636328
+Coloquei a unidade 5 em 13
+1636328 1623300
+Coloquei a unidade 5 em 15
+1623300 1615376
+Coloquei a unidade 5 em 28
+1615376 1612284
+Coloquei a unidade 5 em 29
+1612284 1607538
+Coloquei a unidade 6 em 0
+1607538 1604261
+Coloquei a unidade 5 em 381
+1604261 1597985
+Busca local da perturbacao 7 concluida com valor: 1665643
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 5 em 383
+1597985 1597688
+Coloquei a unidade 5 em 384
+1597688 1596153
+Coloquei a unidade 6 em 1
+1596153 1584988
+Coloquei a unidade 6 em 12
+1584988 1577321
+Coloquei a unidade 6 em 13
+1577321 1564293
+Coloquei a unidade 6 em 15
+1564293 1556369
+Coloquei a unidade 6 em 28
+1556369 1553277
+Coloquei a unidade 6 em 29
+1553277 1548531
+Coloquei a unidade 7 em 0
+1548531 1545954
+Coloquei a unidade 6 em 784
+1545954 1539739
+Busca local da perturbacao 8 concluida com valor: 1597985
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 6 em 785
+1539739 1538616
+Coloquei a unidade 7 em 1
+1538616 1527451
+Coloquei a unidade 7 em 12
+1527451 1519784
+Coloquei a unidade 7 em 13
+1519784 1506756
+Coloquei a unidade 7 em 15
+1506756 1498832
+Coloquei a unidade 7 em 28
+1498832 1495740
+Coloquei a unidade 7 em 29
+1495740 1490994
+Coloquei a unidade 8 em 8
+1490994 1481598
+Coloquei a unidade 8 em 9
+1481598 1479846
+Coloquei a unidade 8 em 10
+1479846 1478718
+Busca local da perturbacao 9 concluida com valor: 1539739
+Solucao perturbada eh a melhor ate o momento
+ILS: 1478718
+50 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1984178 1982399
+Coloquei a unidade 0 em 2
+1982399 1980538
+Coloquei a unidade 0 em 3
+1980538 1980361
+Coloquei a unidade 0 em 8
+1980361 1969822
+Coloquei a unidade 0 em 9
+1969822 1963911
+Coloquei a unidade 0 em 10
+1963911 1963430
+Coloquei a unidade 0 em 13
+1963430 1961919
+Coloquei a unidade 0 em 16
+1961919 1961727
+Coloquei a unidade 0 em 21
+1961727 1953155
+Coloquei a unidade 0 em 22
+1953155 1951074
+Busca local da perturbacao 0 concluida com valor: 1984178
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 45
+1951074 1948061
+Coloquei a unidade 0 em 46
+1948061 1943759
+Coloquei a unidade 0 em 102
+1943759 1939262
+Coloquei a unidade 0 em 117
+1939262 1935664
+Coloquei a unidade 0 em 118
+1935664 1935449
+Coloquei a unidade 0 em 119
+1935449 1934471
+Coloquei a unidade 0 em 129
+1934471 1933636
+Coloquei a unidade 0 em 203
+1933636 1933080
+Coloquei a unidade 0 em 216
+1933080 1926935
+Coloquei a unidade 0 em 229
+1926935 1924357
+Busca local da perturbacao 1 concluida com valor: 1951074
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 0 em 447
+1924357 1923714
+Coloquei a unidade 0 em 455
+1923714 1923587
+Coloquei a unidade 0 em 506
+1923587 1918211
+Coloquei a unidade 0 em 507
+1918211 1913101
+Coloquei a unidade 0 em 508
+1913101 1910346
+Coloquei a unidade 0 em 509
+1910346 1908777
+Coloquei a unidade 0 em 536
+1908777 1907926
+Coloquei a unidade 0 em 1061
+1907926 1872182
+Coloquei a unidade 0 em 1062
+1872182 1870166
+Coloquei a unidade 0 em 1063
+1870166 1852692
+Busca local da perturbacao 2 concluida com valor: 1924357
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 0 em 1064
+1852692 1847333
+Coloquei a unidade 1 em 8
+1847333 1843809
+Coloquei a unidade 1 em 9
+1843809 1837898
+Coloquei a unidade 1 em 10
+1837898 1837417
+Coloquei a unidade 1 em 13
+1837417 1835906
+Coloquei a unidade 1 em 16
+1835906 1835714
+Coloquei a unidade 1 em 21
+1835714 1827142
+Coloquei a unidade 1 em 22
+1827142 1825061
+Coloquei a unidade 1 em 45
+1825061 1822048
+Coloquei a unidade 1 em 46
+1822048 1817746
+Busca local da perturbacao 3 concluida com valor: 1852692
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 102
+1817746 1813249
+Coloquei a unidade 1 em 117
+1813249 1809651
+Coloquei a unidade 1 em 118
+1809651 1809436
+Coloquei a unidade 1 em 119
+1809436 1808458
+Coloquei a unidade 1 em 129
+1808458 1807623
+Coloquei a unidade 1 em 203
+1807623 1807067
+Coloquei a unidade 1 em 216
+1807067 1800922
+Coloquei a unidade 1 em 229
+1800922 1798344
+Coloquei a unidade 1 em 447
+1798344 1797701
+Coloquei a unidade 1 em 455
+1797701 1797574
+Busca local da perturbacao 4 concluida com valor: 1817746
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 1 em 506
+1797574 1792198
+Coloquei a unidade 1 em 507
+1792198 1787088
+Coloquei a unidade 1 em 508
+1787088 1784333
+Coloquei a unidade 1 em 509
+1784333 1782764
+Coloquei a unidade 1 em 536
+1782764 1781913
+Coloquei a unidade 2 em 21
+1781913 1779301
+Coloquei a unidade 2 em 22
+1779301 1777220
+Coloquei a unidade 2 em 45
+1777220 1774207
+Coloquei a unidade 2 em 46
+1774207 1769905
+Coloquei a unidade 2 em 102
+1769905 1765408
+Busca local da perturbacao 5 concluida com valor: 1797574
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 2 em 117
+1765408 1761810
+Coloquei a unidade 2 em 118
+1761810 1761595
+Coloquei a unidade 2 em 119
+1761595 1760617
+Coloquei a unidade 2 em 129
+1760617 1759782
+Coloquei a unidade 2 em 216
+1759782 1754031
+Coloquei a unidade 2 em 229
+1754031 1751987
+Coloquei a unidade 2 em 384
+1751987 1751978
+Coloquei a unidade 2 em 447
+1751978 1749860
+Coloquei a unidade 2 em 455
+1749860 1749733
+Coloquei a unidade 2 em 1061
+1749733 1743604
+Busca local da perturbacao 6 concluida com valor: 1765408
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 0 em 1065
+1743604 1738896
+Coloquei a unidade 0 em 1066
+1738896 1728120
+Coloquei a unidade 0 em 1067
+1728120 1727507
+Coloquei a unidade 3 em 0
+1727507 1723597
+Coloquei a unidade 3 em 2
+1723597 1721736
+Coloquei a unidade 3 em 3
+1721736 1721559
+Coloquei a unidade 3 em 8
+1721559 1711020
+Coloquei a unidade 3 em 9
+1711020 1705109
+Coloquei a unidade 3 em 10
+1705109 1704628
+Coloquei a unidade 3 em 13
+1704628 1703117
+Busca local da perturbacao 7 concluida com valor: 1743604
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 3 em 16
+1703117 1702925
+Coloquei a unidade 3 em 21
+1702925 1694353
+Coloquei a unidade 3 em 22
+1694353 1692272
+Coloquei a unidade 3 em 45
+1692272 1689259
+Coloquei a unidade 3 em 46
+1689259 1684957
+Coloquei a unidade 3 em 102
+1684957 1680460
+Coloquei a unidade 3 em 117
+1680460 1676862
+Coloquei a unidade 3 em 118
+1676862 1676647
+Coloquei a unidade 3 em 119
+1676647 1675669
+Coloquei a unidade 3 em 129
+1675669 1674834
+Busca local da perturbacao 8 concluida com valor: 1703117
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 5
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 3 em 216
+1674834 1669083
+Coloquei a unidade 3 em 229
+1669083 1667039
+Coloquei a unidade 3 em 384
+1667039 1667030
+Coloquei a unidade 3 em 447
+1667030 1664912
+Coloquei a unidade 3 em 455
+1664912 1664785
+Coloquei a unidade 4 em 2
+1664785 1663967
+Coloquei a unidade 3 em 447
+1663967 1663884
+Coloquei a unidade 4 em 8
+1663884 1655112
+Coloquei a unidade 3 em 454
+1655112 1654157
+Coloquei a unidade 3 em 455
+1654157 1653467
+Busca local da perturbacao 9 concluida com valor: 1674834
+Solucao perturbada eh a melhor ate o momento
+ILS: 1653467
+55 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1893755 1890196
+Coloquei a unidade 0 em 2
+1890196 1888089
+Coloquei a unidade 0 em 8
+1888089 1879353
+Coloquei a unidade 0 em 9
+1879353 1877697
+Coloquei a unidade 0 em 12
+1877697 1877429
+Coloquei a unidade 0 em 13
+1877429 1875321
+Coloquei a unidade 0 em 16
+1875321 1874347
+Coloquei a unidade 0 em 21
+1874347 1870403
+Coloquei a unidade 0 em 45
+1870403 1866287
+Coloquei a unidade 0 em 46
+1866287 1863049
+Busca local da perturbacao 0 concluida com valor: 1893755
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 47
+1863049 1861663
+Coloquei a unidade 0 em 48
+1861663 1861015
+Coloquei a unidade 0 em 99
+1861015 1859623
+Coloquei a unidade 0 em 102
+1859623 1852301
+Coloquei a unidade 0 em 117
+1852301 1847333
+Coloquei a unidade 0 em 118
+1847333 1847118
+Coloquei a unidade 0 em 119
+1847118 1846140
+Coloquei a unidade 0 em 129
+1846140 1845305
+Coloquei a unidade 0 em 130
+1845305 1843080
+Coloquei a unidade 0 em 216
+1843080 1834820
+Busca local da perturbacao 1 concluida com valor: 1863049
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 0 em 229
+1834820 1832242
+Coloquei a unidade 0 em 1061
+1832242 1779979
+Coloquei a unidade 0 em 1062
+1779979 1777963
+Coloquei a unidade 0 em 1063
+1777963 1760489
+Coloquei a unidade 0 em 1064
+1760489 1755130
+Coloquei a unidade 1 em 8
+1755130 1753340
+Coloquei a unidade 1 em 9
+1753340 1751684
+Coloquei a unidade 1 em 12
+1751684 1751416
+Coloquei a unidade 1 em 13
+1751416 1749308
+Coloquei a unidade 1 em 16
+1749308 1748334
+Busca local da perturbacao 2 concluida com valor: 1834820
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 21
+1748334 1744390
+Coloquei a unidade 1 em 45
+1744390 1740274
+Coloquei a unidade 1 em 46
+1740274 1737036
+Coloquei a unidade 1 em 47
+1737036 1735650
+Coloquei a unidade 1 em 48
+1735650 1735002
+Coloquei a unidade 1 em 99
+1735002 1733610
+Coloquei a unidade 1 em 102
+1733610 1726288
+Coloquei a unidade 1 em 117
+1726288 1721320
+Coloquei a unidade 1 em 118
+1721320 1721105
+Coloquei a unidade 1 em 119
+1721105 1720127
+Busca local da perturbacao 3 concluida com valor: 1748334
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 129
+1720127 1719292
+Coloquei a unidade 1 em 130
+1719292 1717067
+Coloquei a unidade 1 em 216
+1717067 1708807
+Coloquei a unidade 1 em 229
+1708807 1706229
+Coloquei a unidade 1 em 1061
+1706229 1699242
+Coloquei a unidade 0 em 1065
+1699242 1694534
+Coloquei a unidade 0 em 1066
+1694534 1683758
+Coloquei a unidade 0 em 1067
+1683758 1683145
+Coloquei a unidade 2 em 46
+1683145 1682630
+Coloquei a unidade 2 em 47
+1682630 1681244
+Busca local da perturbacao 4 concluida com valor: 1720127
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 48
+1681244 1680596
+Coloquei a unidade 2 em 99
+1680596 1679204
+Coloquei a unidade 2 em 102
+1679204 1671882
+Coloquei a unidade 2 em 117
+1671882 1666914
+Coloquei a unidade 2 em 118
+1666914 1666699
+Coloquei a unidade 2 em 119
+1666699 1665721
+Coloquei a unidade 2 em 129
+1665721 1664886
+Coloquei a unidade 2 em 130
+1664886 1662661
+Coloquei a unidade 2 em 216
+1662661 1654401
+Coloquei a unidade 2 em 229
+1654401 1651823
+Busca local da perturbacao 5 concluida com valor: 1681244
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 3 em 0
+1651823 1647871
+Coloquei a unidade 3 em 2
+1647871 1645764
+Coloquei a unidade 3 em 8
+1645764 1637028
+Coloquei a unidade 3 em 9
+1637028 1635372
+Coloquei a unidade 3 em 12
+1635372 1635104
+Coloquei a unidade 3 em 13
+1635104 1632996
+Coloquei a unidade 3 em 16
+1632996 1632022
+Coloquei a unidade 3 em 21
+1632022 1628078
+Coloquei a unidade 3 em 45
+1628078 1623962
+Coloquei a unidade 3 em 46
+1623962 1620724
+Busca local da perturbacao 6 concluida com valor: 1651823
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 47
+1620724 1619338
+Coloquei a unidade 3 em 48
+1619338 1618690
+Coloquei a unidade 3 em 369
+1618690 1611787
+Coloquei a unidade 3 em 370
+1611787 1607385
+Coloquei a unidade 3 em 378
+1607385 1602317
+Coloquei a unidade 3 em 380
+1602317 1601968
+Coloquei a unidade 3 em 381
+1601968 1594898
+Coloquei a unidade 3 em 383
+1594898 1594520
+Coloquei a unidade 3 em 384
+1594520 1593048
+Coloquei a unidade 3 em 785
+1593048 1592074
+Busca local da perturbacao 7 concluida com valor: 1620724
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 4 em 2
+1592074 1591010
+Coloquei a unidade 4 em 8
+1591010 1582274
+Coloquei a unidade 4 em 9
+1582274 1580618
+Coloquei a unidade 4 em 12
+1580618 1580350
+Coloquei a unidade 4 em 13
+1580350 1578242
+Coloquei a unidade 4 em 16
+1578242 1577268
+Coloquei a unidade 4 em 21
+1577268 1573324
+Coloquei a unidade 4 em 45
+1573324 1569208
+Coloquei a unidade 4 em 46
+1569208 1565970
+Coloquei a unidade 4 em 47
+1565970 1564584
+Busca local da perturbacao 8 concluida com valor: 1592074
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 4 em 48
+1564584 1563936
+Coloquei a unidade 4 em 369
+1563936 1557033
+Coloquei a unidade 4 em 370
+1557033 1552631
+Coloquei a unidade 4 em 378
+1552631 1547563
+Coloquei a unidade 4 em 380
+1547563 1547214
+Coloquei a unidade 4 em 381
+1547214 1540144
+Coloquei a unidade 4 em 383
+1540144 1539766
+Coloquei a unidade 4 em 384
+1539766 1538294
+Coloquei a unidade 5 em 0
+1538294 1537403
+Coloquei a unidade 5 em 2
+1537403 1535296
+Busca local da perturbacao 9 concluida com valor: 1564584
+Solucao perturbada eh a melhor ate o momento
+ILS: 1535296
+60 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1691750 1688191
+Coloquei a unidade 0 em 2
+1688191 1686084
+Coloquei a unidade 0 em 8
+1686084 1677348
+Coloquei a unidade 0 em 9
+1677348 1676306
+Coloquei a unidade 0 em 12
+1676306 1675876
+Coloquei a unidade 0 em 13
+1675876 1673480
+Coloquei a unidade 0 em 16
+1673480 1672794
+Coloquei a unidade 0 em 21
+1672794 1669301
+Coloquei a unidade 0 em 45
+1669301 1665871
+Coloquei a unidade 0 em 46
+1665871 1662773
+Busca local da perturbacao 0 concluida com valor: 1691750
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 47
+1662773 1661037
+Coloquei a unidade 0 em 48
+1661037 1660389
+Coloquei a unidade 0 em 98
+1660389 1659100
+Coloquei a unidade 0 em 99
+1659100 1657618
+Coloquei a unidade 0 em 102
+1657618 1650296
+Coloquei a unidade 0 em 117
+1650296 1645328
+Coloquei a unidade 0 em 118
+1645328 1645113
+Coloquei a unidade 0 em 119
+1645113 1644135
+Coloquei a unidade 0 em 129
+1644135 1643300
+Coloquei a unidade 0 em 130
+1643300 1641075
+Busca local da perturbacao 1 concluida com valor: 1662773
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 0 em 216
+1641075 1632815
+Coloquei a unidade 0 em 229
+1632815 1630237
+Coloquei a unidade 1 em 8
+1630237 1629857
+Coloquei a unidade 1 em 9
+1629857 1628815
+Coloquei a unidade 1 em 12
+1628815 1628385
+Coloquei a unidade 1 em 13
+1628385 1625989
+Coloquei a unidade 1 em 16
+1625989 1625303
+Coloquei a unidade 1 em 21
+1625303 1621810
+Coloquei a unidade 1 em 45
+1621810 1618380
+Coloquei a unidade 1 em 46
+1618380 1615282
+Busca local da perturbacao 2 concluida com valor: 1641075
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 47
+1615282 1613546
+Coloquei a unidade 1 em 48
+1613546 1612898
+Coloquei a unidade 1 em 344
+1612898 1612396
+Coloquei a unidade 1 em 369
+1612396 1604616
+Coloquei a unidade 1 em 370
+1604616 1600214
+Coloquei a unidade 1 em 378
+1600214 1595146
+Coloquei a unidade 1 em 380
+1595146 1594797
+Coloquei a unidade 1 em 381
+1594797 1587727
+Coloquei a unidade 1 em 383
+1587727 1587349
+Coloquei a unidade 1 em 384
+1587349 1585877
+Busca local da perturbacao 3 concluida com valor: 1615282
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 785
+1585877 1584903
+Coloquei a unidade 2 em 47
+1584903 1584381
+Coloquei a unidade 2 em 48
+1584381 1583733
+Coloquei a unidade 2 em 344
+1583733 1583231
+Coloquei a unidade 2 em 369
+1583231 1575451
+Coloquei a unidade 2 em 370
+1575451 1571049
+Coloquei a unidade 2 em 378
+1571049 1565981
+Coloquei a unidade 2 em 380
+1565981 1565632
+Coloquei a unidade 2 em 381
+1565632 1558562
+Coloquei a unidade 2 em 383
+1558562 1558184
+Busca local da perturbacao 4 concluida com valor: 1585877
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 384
+1558184 1556712
+Coloquei a unidade 3 em 0
+1556712 1552760
+Coloquei a unidade 3 em 2
+1552760 1550653
+Coloquei a unidade 3 em 8
+1550653 1541917
+Coloquei a unidade 3 em 9
+1541917 1540875
+Coloquei a unidade 3 em 12
+1540875 1540445
+Coloquei a unidade 3 em 13
+1540445 1538049
+Coloquei a unidade 3 em 16
+1538049 1537363
+Coloquei a unidade 3 em 21
+1537363 1533870
+Coloquei a unidade 3 em 45
+1533870 1530440
+Busca local da perturbacao 5 concluida com valor: 1558184
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 3 em 46
+1530440 1527342
+Coloquei a unidade 3 em 47
+1527342 1525606
+Coloquei a unidade 3 em 48
+1525606 1524958
+Coloquei a unidade 3 em 445
+1524958 1521681
+Coloquei a unidade 3 em 447
+1521681 1520725
+Coloquei a unidade 3 em 448
+1520725 1520502
+Coloquei a unidade 3 em 453
+1520502 1518519
+Coloquei a unidade 3 em 454
+1518519 1509201
+Coloquei a unidade 3 em 1076
+1509201 1507653
+Coloquei a unidade 3 em 1091
+1507653 1506383
+Busca local da perturbacao 6 concluida com valor: 1530440
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 1092
+1506383 1504803
+Coloquei a unidade 3 em 1093
+1504803 1503748
+Coloquei a unidade 3 em 1094
+1503748 1502081
+Coloquei a unidade 3 em 1101
+1502081 1501283
+Coloquei a unidade 4 em 0
+1501283 1499041
+Coloquei a unidade 4 em 2
+1499041 1496934
+Coloquei a unidade 4 em 8
+1496934 1488198
+Coloquei a unidade 4 em 9
+1488198 1487156
+Coloquei a unidade 4 em 12
+1487156 1486726
+Coloquei a unidade 4 em 13
+1486726 1484330
+Busca local da perturbacao 7 concluida com valor: 1506383
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 4 em 16
+1484330 1483644
+Coloquei a unidade 4 em 21
+1483644 1480151
+Coloquei a unidade 4 em 45
+1480151 1476721
+Coloquei a unidade 4 em 46
+1476721 1473623
+Coloquei a unidade 4 em 47
+1473623 1471887
+Coloquei a unidade 4 em 48
+1471887 1471239
+Coloquei a unidade 4 em 445
+1471239 1467962
+Coloquei a unidade 4 em 447
+1467962 1467006
+Coloquei a unidade 4 em 448
+1467006 1466783
+Coloquei a unidade 4 em 453
+1466783 1464800
+Busca local da perturbacao 8 concluida com valor: 1484330
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 6
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 4 em 454
+1464800 1455482
+Coloquei a unidade 5 em 0
+1455482 1451900
+Coloquei a unidade 5 em 2
+1451900 1449793
+Coloquei a unidade 5 em 8
+1449793 1441057
+Coloquei a unidade 5 em 9
+1441057 1440015
+Coloquei a unidade 5 em 12
+1440015 1439585
+Coloquei a unidade 5 em 13
+1439585 1437189
+Coloquei a unidade 5 em 16
+1437189 1436503
+Coloquei a unidade 5 em 21
+1436503 1433010
+Coloquei a unidade 5 em 45
+1433010 1429580
+Busca local da perturbacao 9 concluida com valor: 1464800
+Solucao perturbada eh a melhor ate o momento
+ILS: 1429580
+65 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1623356 1619797
+Coloquei a unidade 0 em 2
+1619797 1617690
+Coloquei a unidade 0 em 8
+1617690 1608954
+Coloquei a unidade 0 em 9
+1608954 1607912
+Coloquei a unidade 0 em 12
+1607912 1607482
+Coloquei a unidade 0 em 13
+1607482 1605086
+Coloquei a unidade 0 em 16
+1605086 1604400
+Coloquei a unidade 0 em 21
+1604400 1600907
+Coloquei a unidade 0 em 45
+1600907 1597477
+Coloquei a unidade 0 em 46
+1597477 1594379
+Busca local da perturbacao 0 concluida com valor: 1623356
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 47
+1594379 1592643
+Coloquei a unidade 0 em 48
+1592643 1591995
+Coloquei a unidade 0 em 98
+1591995 1590706
+Coloquei a unidade 0 em 99
+1590706 1589224
+Coloquei a unidade 0 em 102
+1589224 1581902
+Coloquei a unidade 0 em 117
+1581902 1576934
+Coloquei a unidade 0 em 118
+1576934 1576719
+Coloquei a unidade 0 em 119
+1576719 1576053
+Coloquei a unidade 0 em 129
+1576053 1575678
+Coloquei a unidade 0 em 130
+1575678 1574761
+Busca local da perturbacao 1 concluida com valor: 1594379
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 0 em 216
+1574761 1567298
+Coloquei a unidade 0 em 229
+1567298 1564894
+Coloquei a unidade 0 em 785
+1564894 1564000
+Coloquei a unidade 1 em 0
+1564000 1562719
+Coloquei a unidade 1 em 2
+1562719 1560612
+Coloquei a unidade 1 em 8
+1560612 1551876
+Coloquei a unidade 1 em 9
+1551876 1550834
+Coloquei a unidade 1 em 12
+1550834 1550404
+Coloquei a unidade 1 em 13
+1550404 1548008
+Coloquei a unidade 1 em 16
+1548008 1547322
+Busca local da perturbacao 2 concluida com valor: 1574761
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 21
+1547322 1543829
+Coloquei a unidade 1 em 45
+1543829 1540399
+Coloquei a unidade 1 em 46
+1540399 1537301
+Coloquei a unidade 1 em 47
+1537301 1535565
+Coloquei a unidade 1 em 48
+1535565 1534917
+Coloquei a unidade 1 em 98
+1534917 1533628
+Coloquei a unidade 1 em 99
+1533628 1532146
+Coloquei a unidade 1 em 102
+1532146 1524824
+Coloquei a unidade 1 em 117
+1524824 1519856
+Coloquei a unidade 1 em 118
+1519856 1519641
+Busca local da perturbacao 3 concluida com valor: 1547322
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 119
+1519641 1518975
+Coloquei a unidade 1 em 129
+1518975 1518600
+Coloquei a unidade 1 em 130
+1518600 1517683
+Coloquei a unidade 1 em 216
+1517683 1510220
+Coloquei a unidade 1 em 229
+1510220 1507816
+Coloquei a unidade 2 em 8
+1507816 1502199
+Coloquei a unidade 2 em 9
+1502199 1501157
+Coloquei a unidade 2 em 12
+1501157 1500727
+Coloquei a unidade 2 em 13
+1500727 1498331
+Coloquei a unidade 2 em 16
+1498331 1497645
+Busca local da perturbacao 4 concluida com valor: 1519641
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 21
+1497645 1494152
+Coloquei a unidade 2 em 45
+1494152 1490722
+Coloquei a unidade 2 em 46
+1490722 1487624
+Coloquei a unidade 2 em 47
+1487624 1485888
+Coloquei a unidade 2 em 48
+1485888 1485240
+Coloquei a unidade 2 em 344
+1485240 1484738
+Coloquei a unidade 2 em 369
+1484738 1476958
+Coloquei a unidade 2 em 370
+1476958 1472556
+Coloquei a unidade 2 em 378
+1472556 1467488
+Coloquei a unidade 2 em 380
+1467488 1467139
+Busca local da perturbacao 5 concluida com valor: 1497645
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 2 em 381
+1467139 1460069
+Coloquei a unidade 2 em 383
+1460069 1459691
+Coloquei a unidade 2 em 384
+1459691 1458219
+Coloquei a unidade 3 em 0
+1458219 1454267
+Coloquei a unidade 3 em 2
+1454267 1452160
+Coloquei a unidade 3 em 8
+1452160 1443424
+Coloquei a unidade 3 em 9
+1443424 1442382
+Coloquei a unidade 3 em 12
+1442382 1441952
+Coloquei a unidade 3 em 13
+1441952 1439556
+Coloquei a unidade 3 em 16
+1439556 1438870
+Busca local da perturbacao 6 concluida com valor: 1467139
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 21
+1438870 1435377
+Coloquei a unidade 3 em 45
+1435377 1431947
+Coloquei a unidade 3 em 46
+1431947 1428849
+Coloquei a unidade 3 em 47
+1428849 1427113
+Coloquei a unidade 3 em 48
+1427113 1426465
+Coloquei a unidade 3 em 506
+1426465 1420423
+Coloquei a unidade 3 em 507
+1420423 1415661
+Coloquei a unidade 3 em 508
+1415661 1413396
+Coloquei a unidade 3 em 1061
+1413396 1412804
+Coloquei a unidade 3 em 1062
+1412804 1411902
+Busca local da perturbacao 7 concluida com valor: 1438870
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 3 em 1092
+1411902 1410754
+Coloquei a unidade 3 em 1093
+1410754 1409804
+Coloquei a unidade 3 em 1094
+1409804 1408425
+Coloquei a unidade 3 em 1101
+1408425 1407009
+Coloquei a unidade 4 em 0
+1407009 1404767
+Coloquei a unidade 4 em 2
+1404767 1402660
+Coloquei a unidade 4 em 8
+1402660 1393924
+Coloquei a unidade 4 em 9
+1393924 1392882
+Coloquei a unidade 4 em 12
+1392882 1392452
+Coloquei a unidade 4 em 13
+1392452 1390056
+Busca local da perturbacao 8 concluida com valor: 1411902
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 4 em 16
+1390056 1389370
+Coloquei a unidade 4 em 21
+1389370 1385877
+Coloquei a unidade 4 em 45
+1385877 1382447
+Coloquei a unidade 4 em 46
+1382447 1379349
+Coloquei a unidade 4 em 47
+1379349 1377613
+Coloquei a unidade 4 em 48
+1377613 1376965
+Coloquei a unidade 4 em 506
+1376965 1370923
+Coloquei a unidade 4 em 507
+1370923 1366161
+Coloquei a unidade 4 em 508
+1366161 1363896
+Coloquei a unidade 4 em 1993
+1363896 1363532
+Busca local da perturbacao 9 concluida com valor: 1390056
+Solucao perturbada eh a melhor ate o momento
+ILS: 1363532
+70 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1558583 1555530
+Coloquei a unidade 0 em 2
+1555530 1552917
+Coloquei a unidade 0 em 9
+1552917 1543441
+Coloquei a unidade 0 em 12
+1543441 1542885
+Coloquei a unidade 0 em 13
+1542885 1540449
+Coloquei a unidade 0 em 16
+1540449 1539731
+Coloquei a unidade 0 em 21
+1539731 1536134
+Coloquei a unidade 0 em 46
+1536134 1535225
+Coloquei a unidade 0 em 48
+1535225 1535224
+Coloquei a unidade 0 em 63
+1535224 1528583
+Busca local da perturbacao 0 concluida com valor: 1558583
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 98
+1528583 1525933
+Coloquei a unidade 0 em 99
+1525933 1524451
+Coloquei a unidade 0 em 102
+1524451 1517129
+Coloquei a unidade 0 em 117
+1517129 1512161
+Coloquei a unidade 0 em 118
+1512161 1511946
+Coloquei a unidade 0 em 119
+1511946 1511280
+Coloquei a unidade 0 em 129
+1511280 1510905
+Coloquei a unidade 0 em 130
+1510905 1509988
+Coloquei a unidade 0 em 216
+1509988 1502525
+Coloquei a unidade 0 em 229
+1502525 1500121
+Busca local da perturbacao 1 concluida com valor: 1528583
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 0
+1500121 1499346
+Coloquei a unidade 1 em 2
+1499346 1496733
+Coloquei a unidade 1 em 9
+1496733 1487257
+Coloquei a unidade 1 em 12
+1487257 1486701
+Coloquei a unidade 1 em 13
+1486701 1484265
+Coloquei a unidade 1 em 16
+1484265 1483547
+Coloquei a unidade 1 em 21
+1483547 1479950
+Coloquei a unidade 1 em 46
+1479950 1479041
+Coloquei a unidade 1 em 48
+1479041 1479040
+Coloquei a unidade 1 em 63
+1479040 1474421
+Busca local da perturbacao 2 concluida com valor: 1500121
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 0 em 381
+1474421 1474329
+Coloquei a unidade 0 em 383
+1474329 1473951
+Coloquei a unidade 0 em 384
+1473951 1472479
+Coloquei a unidade 1 em 98
+1472479 1469829
+Coloquei a unidade 1 em 99
+1469829 1468347
+Coloquei a unidade 1 em 102
+1468347 1461025
+Coloquei a unidade 1 em 117
+1461025 1456057
+Coloquei a unidade 1 em 118
+1456057 1455842
+Coloquei a unidade 1 em 119
+1455842 1455176
+Coloquei a unidade 1 em 129
+1455176 1454801
+Busca local da perturbacao 3 concluida com valor: 1474421
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 1 em 130
+1454801 1453884
+Coloquei a unidade 1 em 216
+1453884 1446421
+Coloquei a unidade 1 em 229
+1446421 1444017
+Coloquei a unidade 2 em 9
+1444017 1437660
+Coloquei a unidade 2 em 12
+1437660 1437104
+Coloquei a unidade 2 em 13
+1437104 1434668
+Coloquei a unidade 2 em 16
+1434668 1433950
+Coloquei a unidade 2 em 21
+1433950 1430353
+Coloquei a unidade 2 em 46
+1430353 1429444
+Coloquei a unidade 2 em 48
+1429444 1429443
+Busca local da perturbacao 4 concluida com valor: 1454801
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 63
+1429443 1424824
+Coloquei a unidade 2 em 65
+1424824 1424440
+Coloquei a unidade 2 em 98
+1424440 1423072
+Coloquei a unidade 2 em 102
+1423072 1421803
+Coloquei a unidade 1 em 1093
+1421803 1421788
+Coloquei a unidade 1 em 1094
+1421788 1420409
+Coloquei a unidade 1 em 1101
+1420409 1418993
+Coloquei a unidade 2 em 117
+1418993 1414025
+Coloquei a unidade 2 em 118
+1414025 1413810
+Coloquei a unidade 2 em 119
+1413810 1413144
+Busca local da perturbacao 5 concluida com valor: 1429443
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 2 em 129
+1413144 1412769
+Coloquei a unidade 2 em 130
+1412769 1411852
+Coloquei a unidade 2 em 216
+1411852 1404389
+Coloquei a unidade 2 em 229
+1404389 1401985
+Coloquei a unidade 3 em 0
+1401985 1398539
+Coloquei a unidade 3 em 2
+1398539 1395926
+Coloquei a unidade 3 em 9
+1395926 1386450
+Coloquei a unidade 3 em 12
+1386450 1385894
+Coloquei a unidade 3 em 13
+1385894 1383458
+Coloquei a unidade 3 em 16
+1383458 1382740
+Busca local da perturbacao 6 concluida com valor: 1413144
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 21
+1382740 1379143
+Coloquei a unidade 3 em 46
+1379143 1378234
+Coloquei a unidade 3 em 48
+1378234 1378233
+Coloquei a unidade 3 em 63
+1378233 1373614
+Coloquei a unidade 3 em 65
+1373614 1373230
+Coloquei a unidade 3 em 98
+1373230 1371862
+Coloquei a unidade 3 em 102
+1371862 1370593
+Coloquei a unidade 3 em 117
+1370593 1370521
+Coloquei a unidade 2 em 230
+1370521 1370313
+Coloquei a unidade 2 em 231
+1370313 1369942
+Busca local da perturbacao 7 concluida com valor: 1382740
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 2 em 234
+1369942 1369481
+Coloquei a unidade 2 em 507
+1369481 1369199
+Coloquei a unidade 2 em 508
+1369199 1368074
+Coloquei a unidade 2 em 1993
+1368074 1367620
+Coloquei a unidade 3 em 118
+1367620 1367405
+Coloquei a unidade 3 em 119
+1367405 1366739
+Coloquei a unidade 3 em 129
+1366739 1366364
+Coloquei a unidade 3 em 130
+1366364 1365666
+Coloquei a unidade 3 em 216
+1365666 1358827
+Coloquei a unidade 3 em 229
+1358827 1356798
+Busca local da perturbacao 8 concluida com valor: 1369942
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 7
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 4 em 0
+1356798 1355062
+Coloquei a unidade 4 em 2
+1355062 1352449
+Coloquei a unidade 4 em 9
+1352449 1342973
+Coloquei a unidade 4 em 12
+1342973 1342417
+Coloquei a unidade 4 em 13
+1342417 1339981
+Coloquei a unidade 4 em 16
+1339981 1339263
+Coloquei a unidade 4 em 21
+1339263 1335666
+Coloquei a unidade 4 em 46
+1335666 1334757
+Coloquei a unidade 4 em 48
+1334757 1334756
+Coloquei a unidade 4 em 63
+1334756 1330137
+Busca local da perturbacao 9 concluida com valor: 1356798
+Solucao perturbada eh a melhor ate o momento
+ILS: 1330137
+75 unidades: 
+valor de aceitacao calculado
+Solucao inicial adquirida
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 0 perturbada
+Coloquei a unidade 0 em 0
+1536992 1533939
+Coloquei a unidade 0 em 2
+1533939 1531326
+Coloquei a unidade 0 em 9
+1531326 1521850
+Coloquei a unidade 0 em 12
+1521850 1521294
+Coloquei a unidade 0 em 13
+1521294 1518858
+Coloquei a unidade 0 em 16
+1518858 1518140
+Coloquei a unidade 0 em 21
+1518140 1514543
+Coloquei a unidade 0 em 46
+1514543 1513634
+Coloquei a unidade 0 em 48
+1513634 1513633
+Coloquei a unidade 0 em 63
+1513633 1507194
+Busca local da perturbacao 0 concluida com valor: 1536992
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 1 perturbada
+Coloquei a unidade 0 em 98
+1507194 1504618
+Coloquei a unidade 0 em 99
+1504618 1503231
+Coloquei a unidade 0 em 102
+1503231 1496293
+Coloquei a unidade 0 em 117
+1496293 1492420
+Coloquei a unidade 0 em 118
+1492420 1492205
+Coloquei a unidade 0 em 216
+1492205 1487065
+Coloquei a unidade 0 em 229
+1487065 1484888
+Coloquei a unidade 0 em 381
+1484888 1480460
+Coloquei a unidade 0 em 383
+1480460 1480082
+Coloquei a unidade 0 em 384
+1480082 1478610
+Busca local da perturbacao 1 concluida com valor: 1507194
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 2 perturbada
+Coloquei a unidade 1 em 0
+1478610 1477835
+Coloquei a unidade 1 em 2
+1477835 1475222
+Coloquei a unidade 1 em 9
+1475222 1465746
+Coloquei a unidade 1 em 12
+1465746 1465190
+Coloquei a unidade 1 em 13
+1465190 1462754
+Coloquei a unidade 1 em 16
+1462754 1462036
+Coloquei a unidade 1 em 21
+1462036 1458439
+Coloquei a unidade 1 em 46
+1458439 1457530
+Coloquei a unidade 1 em 48
+1457530 1457529
+Coloquei a unidade 1 em 63
+1457529 1451090
+Busca local da perturbacao 2 concluida com valor: 1478610
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 3 perturbada
+Coloquei a unidade 1 em 98
+1451090 1448514
+Coloquei a unidade 1 em 99
+1448514 1447127
+Coloquei a unidade 1 em 102
+1447127 1440189
+Coloquei a unidade 1 em 117
+1440189 1436316
+Coloquei a unidade 1 em 118
+1436316 1436101
+Coloquei a unidade 1 em 216
+1436101 1430961
+Coloquei a unidade 1 em 229
+1430961 1428784
+Coloquei a unidade 2 em 9
+1428784 1422427
+Coloquei a unidade 2 em 12
+1422427 1421871
+Coloquei a unidade 2 em 13
+1421871 1419435
+Busca local da perturbacao 3 concluida com valor: 1451090
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 4 perturbada
+Coloquei a unidade 2 em 16
+1419435 1418717
+Coloquei a unidade 2 em 21
+1418717 1415120
+Coloquei a unidade 2 em 46
+1415120 1414211
+Coloquei a unidade 2 em 48
+1414211 1414210
+Coloquei a unidade 2 em 63
+1414210 1409591
+Coloquei a unidade 1 em 1101
+1409591 1409058
+Coloquei a unidade 2 em 98
+1409058 1406482
+Coloquei a unidade 2 em 99
+1406482 1405095
+Coloquei a unidade 2 em 102
+1405095 1398157
+Coloquei a unidade 2 em 117
+1398157 1394284
+Busca local da perturbacao 4 concluida com valor: 1419435
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 5 perturbada
+Coloquei a unidade 2 em 118
+1394284 1394069
+Coloquei a unidade 2 em 216
+1394069 1388929
+Coloquei a unidade 2 em 229
+1388929 1386752
+Coloquei a unidade 3 em 0
+1386752 1383306
+Coloquei a unidade 3 em 2
+1383306 1380693
+Coloquei a unidade 3 em 9
+1380693 1371217
+Coloquei a unidade 3 em 12
+1371217 1370661
+Coloquei a unidade 3 em 13
+1370661 1368225
+Coloquei a unidade 3 em 16
+1368225 1367507
+Coloquei a unidade 3 em 21
+1367507 1363910
+Busca local da perturbacao 5 concluida com valor: 1394284
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 6 perturbada
+Coloquei a unidade 3 em 46
+1363910 1363001
+Coloquei a unidade 3 em 48
+1363001 1363000
+Coloquei a unidade 3 em 63
+1363000 1358381
+Coloquei a unidade 3 em 65
+1358381 1357997
+Coloquei a unidade 3 em 98
+1357997 1356629
+Coloquei a unidade 3 em 102
+1356629 1355360
+Coloquei a unidade 2 em 507
+1355360 1353445
+Coloquei a unidade 2 em 508
+1353445 1352239
+Coloquei a unidade 2 em 1993
+1352239 1351785
+Coloquei a unidade 3 em 117
+1351785 1347912
+Busca local da perturbacao 6 concluida com valor: 1363910
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 7 perturbada
+Coloquei a unidade 3 em 118
+1347912 1347697
+Coloquei a unidade 3 em 216
+1347697 1343367
+Coloquei a unidade 3 em 229
+1343367 1341565
+Coloquei a unidade 4 em 0
+1341565 1339829
+Coloquei a unidade 4 em 2
+1339829 1337216
+Coloquei a unidade 4 em 9
+1337216 1327740
+Coloquei a unidade 4 em 12
+1327740 1327184
+Coloquei a unidade 4 em 13
+1327184 1324748
+Coloquei a unidade 4 em 16
+1324748 1324030
+Coloquei a unidade 4 em 21
+1324030 1320433
+Busca local da perturbacao 7 concluida com valor: 1347912
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 8 perturbada
+Coloquei a unidade 4 em 46
+1320433 1319524
+Coloquei a unidade 4 em 48
+1319524 1319523
+Coloquei a unidade 4 em 63
+1319523 1314904
+Coloquei a unidade 4 em 65
+1314904 1314520
+Coloquei a unidade 4 em 98
+1314520 1313152
+Coloquei a unidade 4 em 102
+1313152 1311883
+Coloquei a unidade 4 em 117
+1311883 1311811
+Coloquei a unidade 3 em 230
+1311811 1311698
+Coloquei a unidade 3 em 231
+1311698 1311389
+Coloquei a unidade 3 em 234
+1311389 1310982
+Busca local da perturbacao 8 concluida com valor: 1320433
+Solucao perturbada eh a melhor ate o momento
+Numero de unidades que serao perturbadas calculado: 8
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Unidade a ser perturbada escolhida
+Nova posicao da unidade escolhida
+Unidade reposicionada de acordo com a perturbacao
+Solucao 9 perturbada
+Coloquei a unidade 3 em 1061
+1310982 1308715
+Coloquei a unidade 4 em 118
+1308715 1308500
+Coloquei a unidade 4 em 216
+1308500 1304170
+Coloquei a unidade 4 em 229
+1304170 1302368
+Coloquei a unidade 5 em 0
+1302368 1299292
+Coloquei a unidade 5 em 2
+1299292 1296679
+Coloquei a unidade 5 em 9
+1296679 1287203
+Coloquei a unidade 5 em 12
+1287203 1286647
+Coloquei a unidade 5 em 13
+1286647 1284211
+Coloquei a unidade 5 em 16
+1284211 1283493
+Busca local da perturbacao 9 concluida com valor: 1310982
+Solucao perturbada eh a melhor ate o momento
+ILS: 1283493

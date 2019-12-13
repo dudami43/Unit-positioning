@@ -1,12 +1,12 @@
 CC= g++
-OPTIONS= -c -O2 -m64 -march=native -std=c++11 -w -static-libstdc++
+OPTIONS= -c -O2 -m64 -march=native -std=c++11 -w -static-libstdc++ -static-libgcc -l libm.so.6 libc.so.6 linux-vdso.so.1
 
 all: Main
 Main: Main.o Functions.o Parser.o 
-	$(CC) -o Main main_irace.o functions.o parser.o -lm
+	$(CC) -o Main main.o functions.o parser.o -lm
 
-Main.o: main_irace.cpp parser.h functions.h 
-	$(CC) $(OPTIONS) main_irace.cpp 
+Main.o: main.cpp parser.h functions.h 
+	$(CC) $(OPTIONS) main.cpp 
 
 Functions.o: functions.cpp functions.h 
 	$(CC) $(OPTIONS) functions.cpp 

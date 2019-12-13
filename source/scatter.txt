@@ -1,0 +1,24 @@
+20 unidades: 
+Scatter search: 2509440
+25 unidades: 
+Scatter search: 2380662
+30 unidades: 
+Scatter search: 2451690
+35 unidades: 
+Scatter search: 2227083
+40 unidades: 
+Scatter search: 1852760
+45 unidades: 
+Scatter search: 1860786
+50 unidades: 
+Scatter search: 1817746
+55 unidades: 
+Scatter search: 1662661
+60 unidades: 
+Scatter search: 1615282
+65 unidades: 
+Scatter search: 1574761
+70 unidades: 
+Scatter search: 1558583
+75 unidades: 
+Scatter search: 1478610
